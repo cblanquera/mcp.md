@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // Simple test script to verify MCP server connection handling
 const { spawn } = require('child_process');
 const path = require('path');
@@ -7,7 +5,7 @@ const path = require('path');
 console.log('Testing MCP server connection handling...');
 
 // Start the MCP server
-const serverProcess = spawn('node', ['cjs/bin.js', 'serve'], {
+const serverProcess = spawn('npx', ['mcp.md', 'serve'], {
   stdio: ['pipe', 'pipe', 'pipe'],
   cwd: process.cwd()
 });

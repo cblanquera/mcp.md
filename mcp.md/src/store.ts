@@ -54,7 +54,7 @@ export async function ingest(cwd: string, log?: Logger) {
   const { inputs, output, batch_size } = getConfig(cwd);
 
   //initialize the store
-  const store = new JsonlStore(cwd + output);
+  const store = new JsonlStore(path.join(cwd, output));
   const tags = new Set<string>(['ruleset', 'knowledge base']);
   //ingest each repo
   for (const { topic, paths, rank } of inputs) {
@@ -68,7 +68,11 @@ export async function ingest(cwd: string, log?: Logger) {
       .map(pathname => pathname.substring(cwd.length))
       //create the chunks
       .flatMap(pathname => toChunks(topic, cwd, pathname));
-
+    //add all tags to the set
+    rawChunks.forEach(chunk => chunk.tags.forEach(tag => tags.add(tag)));
+    //purge any existing chunks for this topic
+    store.purge(topic);
+    //embed in batches and insert into the store
     for (let i = 0; i < rawChunks.length; i += batch_size) {
       const batch = rawChunks.slice(i, i + batch_size);
       const embs = await embed(batch.map(b => b.text));
@@ -87,11 +91,11 @@ export async function ingest(cwd: string, log?: Logger) {
     }
     log && log('success', `Ingested ${topic}: ${rawChunks.length} chunks`);
   }
-  //save the tags to index-tags.json
+  //save the tags to tags.json
   tags.delete('');
-  tags.delete('readme')
+  tags.delete('readme');
   fs.writeFileSync(
-    path.join(output, 'index-tags.json'), 
+    path.join(output, 'tags.json'), 
     JSON.stringify(Array.from(tags), null, 2)
   );
 }
@@ -110,6 +114,17 @@ export default class JsonlStore {
     if (!fs.existsSync(url)) {
       fs.mkdirSync(url, { recursive:true });
     }
+  }
+
+  /**
+   * Drops the JSONL file for a specific topic.
+   */
+  public drop(topic: string) {
+    const file = this.fileFor(topic);
+    if (fs.existsSync(file)) {
+      fs.unlinkSync(file);
+    }
+    return this;
   }
 
   /**
@@ -139,6 +154,17 @@ export default class JsonlStore {
     // read all
     const files = fs.readdirSync(this.url).filter(f => f.endsWith('.jsonl'));
     return files.flatMap(f => this._readFile(path.join(this.url, f)));
+  }
+
+  /**
+   * Purges (empties) the JSONL file for a specific topic.
+   */
+  public purge(topic: string) {
+    const file = this.fileFor(topic);
+    if (fs.existsSync(file)) {
+      fs.writeFileSync(file, '');
+    }
+    return this;
   }
 
   /**
