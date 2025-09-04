@@ -112,14 +112,7 @@
     "build:tsc": "yarn build:tsc:cjs && yarn build:tsc:esm",
     "build:tsc:cjs": "tsc -p ./tsconfig.cjs.json",
     "build:tsc:esm": "tsc -p ./tsconfig.esm.json",
-    "fetch": "node cjs/scripts/fetch.js",
-    "verify": "node cjs/scripts/verify.js",
-    "start": "node cjs/scripts/serve.js",
-    "dev": "dotenv -e .env -- ts-node -r tsx src/scripts/serve.ts",
-    "dev:fetch": "dotenv -e .env -- ts-node -r tsx src/scripts/fetch.ts",
-    "dev:verify": "dotenv -e .env -- ts-node -r tsx src/scripts/verify.ts",
-    "ingest": "dotenv -e .env -- ts-node -r tsx src/scripts/ingest.ts",
-    "zip": "dotenv -e .env -- ts-node -r tsx src/scripts/zip.ts"
+    "cli": "dotenv -e .env -- ts-node -r tsx src/bin.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.17.4",

@@ -107,13 +107,6 @@ export function getConfig(cwd: string) {
 };
 
 /**
- * Retrieves the manifest URL for the current project.
- */
-export function getManifestURL(cwd: string) {
-  return `${getConfig(cwd).output}/index-manifest.json`;
-};
-
-/**
  * Retrieves information from the package.json file.
  */
 export function getPackageInfo(): any {
