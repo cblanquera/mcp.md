@@ -1,0 +1,11 @@
+{
+  "name": "mcpmd-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "mcp.md": "mcp.md"
+  },
+  "dependencies": {
+    "mcp.md": "0.0.1"
+  }
+}

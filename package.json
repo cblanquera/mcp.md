@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "example",
+    "mcp.md"
+  ],
+  "scripts": {
+    "build": "yarn --cwd mcp.md build",
+    "mcp.md": "yarn --cwd mcp.md",
+    "example": "yarn --cwd example",
+    "report": "yarn report:env nyc yarn test && nyc report -r lcov",
+    "report:env": "NODE_OPTIONS=\"--disable-warning=ExperimentalWarning --experimental-loader @istanbuljs/esm-loader-hook\"",
+    "test": "yarn --cwd mcp.md test"
+  },
+  "devDependencies": {
+    "@istanbuljs/esm-loader-hook": "0.3.0",
+    "nyc": "17.1.0"
+  }
+}

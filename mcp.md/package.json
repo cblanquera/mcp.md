@@ -1,0 +1,143 @@
+{
+  "name": "mcp.md",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Turn your markdown into an MCP",
+  "author": "Chris <chris@incept.asia>",
+  "homepage": "https://github.com/cblanquera/mcp.md",
+  "bugs": "https://github.com/cblanquera/mcp.md/issues",
+  "repository": "cblanquera/mcp.md",
+  "keywords": [
+    "ts",
+    "typescript",
+    "esm",
+    "cjs",
+    "mcp"
+  ],
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "types": "./cjs/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js"
+    },
+    "./polyfill": {
+      "require": "./cjs/polyfill.js",
+      "import": "./esm/polyfill.js"
+    },
+    "./bin": {
+      "require": "./cjs/bin.js",
+      "import": "./esm/bin.js"
+    },
+    "./config": {
+      "require": "./cjs/config.js",
+      "import": "./esm/config.js"
+    },
+    "./helpers": {
+      "require": "./cjs/helpers.js",
+      "import": "./esm/helpers.js"
+    },
+    "./server": {
+      "require": "./cjs/server.js",
+      "import": "./esm/server.js"
+    },
+    "./store": {
+      "require": "./cjs/store.js",
+      "import": "./esm/store.js"
+    },
+    "./terminal": {
+      "require": "./cjs/terminal.js",
+      "import": "./esm/terminal.js"
+    },
+    "./types": {
+      "require": "./cjs/types.js",
+      "import": "./esm/types.js"
+    },
+    "./scripts/fetch": {
+      "require": "./cjs/scripts/fetch.js",
+      "import": "./esm/scripts/fetch.js"
+    },
+    "./scripts/ingest": {
+      "require": "./cjs/scripts/ingest.js",
+      "import": "./esm/scripts/ingest.js"
+    },
+    "./scripts/serve": {
+      "require": "./cjs/scripts/serve.js",
+      "import": "./esm/scripts/serve.js"
+    },
+    "./scripts/verify": {
+      "require": "./cjs/scripts/verify.js",
+      "import": "./esm/scripts/verify.js"
+    },
+    "./scripts/zip": {
+      "require": "./cjs/scripts/zip.js",
+      "import": "./esm/scripts/zip.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "index": [ "./cjs/index.d.ts" ],
+      "polyfill": [ "./cjs/polyfill.d.ts" ],
+      "bin": [ "./cjs/bin.d.ts" ],
+      "config": [ "./cjs/config.d.ts" ],
+      "helpers": [ "./cjs/helpers.d.ts" ],
+      "server": [ "./cjs/server.d.ts" ],
+      "store": [ "./cjs/store.d.ts" ],
+      "terminal": [ "./cjs/terminal.d.ts" ],
+      "types": [ "./cjs/types.d.ts" ],
+      "scripts/fetch": [ "./cjs/scripts/fetch.d.ts" ],
+      "scripts/ingest": [ "./cjs/scripts/ingest.d.ts" ],
+      "scripts/serve": [ "./cjs/scripts/serve.d.ts" ],
+      "scripts/verify": [ "./cjs/scripts/verify.d.ts" ],
+      "scripts/zip": [ "./cjs/scripts/zip.d.ts" ]
+    }
+  },
+  "files": [
+    "bin.js",
+    "cjs",
+    "context-pack.yaml",
+    "esm",
+    "LICENSE",
+    "README.md"
+  ],
+  "bin": {
+    "mcp.md": "bin.js"
+  },
+  "scripts": {
+    "build": "yarn build:tsc && yarn build:pkg",
+    "build:pkg": "yarn build:pkg:cjs && yarn build:pkg:esm",
+    "build:pkg:cjs": "echo '{\"type\": \"commonjs\"}' > cjs/package.json",
+    "build:pkg:esm": "echo '{\"type\": \"module\"}' > esm/package.json",
+    "build:tsc": "yarn build:tsc:cjs && yarn build:tsc:esm",
+    "build:tsc:cjs": "tsc -p ./tsconfig.cjs.json",
+    "build:tsc:esm": "tsc -p ./tsconfig.esm.json",
+    "fetch": "node cjs/scripts/fetch.js",
+    "verify": "node cjs/scripts/verify.js",
+    "start": "node cjs/scripts/serve.js",
+    "dev": "dotenv -e .env -- ts-node -r tsx src/scripts/serve.ts",
+    "dev:fetch": "dotenv -e .env -- ts-node -r tsx src/scripts/fetch.ts",
+    "dev:verify": "dotenv -e .env -- ts-node -r tsx src/scripts/verify.ts",
+    "ingest": "dotenv -e .env -- ts-node -r tsx src/scripts/ingest.ts",
+    "zip": "dotenv -e .env -- ts-node -r tsx src/scripts/zip.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.17.4",
+    "@stackpress/lib": "0.6.2",
+    "@xenova/transformers": "2.17.2",
+    "gray-matter": "4.0.3",
+    "js-yaml": "4.1.0",
+    "remark-frontmatter": "5.0.0",
+    "remark-parse": "11.0.0",
+    "undici": "7.15.0",
+    "unified": "11.0.5"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "4.0.9",
+    "@types/node": "24.3.0",
+    "dotenv-cli": "10.0.0",
+    "ts-node": "10.9.2",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  }
+}
