@@ -1,3 +1,5 @@
+//node
+import path from 'node:path';
 // modules
 import type { Terminal } from '@stackpress/lib';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
@@ -166,7 +168,7 @@ export function registerBuildBrief(server: McpServer, store: Store) {
 export default async function serve(cwd: string, terminal: Terminal) {
   const { name, version, inputs, output } = getConfig(cwd);
   try {
-    const store = new Store(cwd + output);
+    const store = new Store(path.join(cwd, output));
     const server = new McpServer({ name, version });
 
     registerSearchContext(server, store);
