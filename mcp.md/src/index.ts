@@ -36,6 +36,8 @@ export {
   ingest
 } from './store.js';
 
+import * as templates from './templates.js';
+
 import serve from './server.js';
 import Store from './store.js';
 import terminal from './terminal.js';
@@ -43,6 +45,7 @@ import terminal from './terminal.js';
 export {
   serve,
   Store,
-  terminal
+  terminal,
+  templates
 };
 

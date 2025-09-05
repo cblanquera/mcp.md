@@ -8,38 +8,8 @@ import { Terminal } from '@stackpress/lib';
 //src
 import { ensureDir } from './helpers.js';
 import { ingest } from './store.js';
+import { config, doc, project, bin } from './templates.js';
 import server from './server.js';
-
-export const config = `
-name: "my-mcp"
-version: 0.0.1
-inputs:
-  - topic: general
-    paths: [ "docs/**/*.md" ]
-`.trim();
-
-export const doc = `
-# Ballroom Dance Styles
-
-The following are popular dance styles:
-
- - Tango
- - Cha cha
- - Waltz
- - Rumba
-`.trim();
-
-export const project = {
-  "name": "mymcp.md",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "mcp.md": "node ./node_modules/mcp.md/bin.js"
-  },
-  "dependencies": {
-    "mcp.md": "^0.0.6"
-  }
-};
 
 /**
  * Returns a terminal interface
@@ -115,6 +85,9 @@ export default function terminal(argv = process.argv) {
     ensureDir(path.join(cwd, 'docs'));
     fs.writeFileSync(path.join(cwd, 'docs', 'hello.md'), doc);
     await logger('success', 'Created docs/hello.md');
+    //$ touch my-mcp.md/mcp.md.js
+    fs.writeFileSync(path.join(cwd, 'mcp.md.js'), bin);
+    await logger('success', 'Created mcp.md.js');
     //$ touch my-mcp.md/package.json
     fs.writeFileSync(
       path.join(cwd, 'package.json'), 

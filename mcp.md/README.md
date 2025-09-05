@@ -11,16 +11,20 @@ Turn your markdown into an MCP.
 ```bash
 $ mkdir my-mcp.md
 $ cd my-mcp.md
-$ npx --y mcp.md example
+$ npx --y mcp.md@latest example -v
+$ npm install
+$ pwd
 ```
+
+> Use `pwd` to get the full MCP path for `[pwd]` in the next set of instructions.
 
  2. Next, run the following command to vecorize your markup.
 
 ```bash
-$ npx --y mcp.md ingest
+$ node [pwd]/mcp.md.js -- ingest -v
 ```
 
- 3. Use `pwd` to get the full MCP path and edit your MCP server configuration by following one of the options below.
+ 3. Edit your MCP server configuration by following one of the options below.
 
 ### 1.1. From the Repository With Claude Desktop
 
@@ -29,8 +33,8 @@ Add the following configuration to your `claude_desktop_config.json`.
 ```json
 {
   "name": "mcp.md",
-  "command": "npx",
-  "args": [ "--y",  "serve", "--cwd", "[pwd]" ]
+  "command": "node",
+  "args": [ "[pwd]/mcp.md.js", "serve", "--cwd", "[pwd]" ]
 }
 ```
 
@@ -42,8 +46,8 @@ Add the following configuration to your `cline_mcp_settings.json`.
 {
   "mcpServers": {
     "mcp.md": {
-      "command": "npx",
-      "args": [ "--y",  "serve", "--cwd", "[pwd]" ]
+      "command": "node",
+      "args": [ "[pwd]/mcp.md.js", "serve", "--cwd", "[pwd]" ]
     }
   }
 }
@@ -71,7 +75,7 @@ Here is the project's README to help you get started:
 You can manually start the server like the following.
 
 ```bash
-$ npx mcp.md server
+$ node [pwd]/mcp.md.js -- serve -v
 ```
 
 ## 2.1. Configuration
@@ -120,7 +124,7 @@ The MCP uses `Xenova/all-MiniLM-L6-v2` locally to determine the best search quer
 Everytime you add or edit new markdown you'll need to update your database like the following.
 
 ```bash
-$ npx mcp.md ingest
+$ node [pwd]/mcp.md.js -- ingest -v
 ```
 
 ## 3. Maximizing Your Knowledge Base
