@@ -13,18 +13,17 @@ $ mkdir my-mcp.md
 $ cd my-mcp.md
 $ npx --y mcp.md@latest -- example -v
 $ npm install
-$ pwd
 ```
-
-> Use `pwd` to get the full MCP path for `[pwd]` in the next set of instructions.
 
  2. Next, run the following command to vecorize your markup.
 
 ```bash
-$ node [pwd]/mcp.md.js -- ingest -v
+$ npx --y mcp.md@latest -- ingest -v
 ```
 
  3. Edit your MCP server configuration by following one of the options below.
+
+> Use `pwd` to get the full MCP path for `[pwd]` in the next set of instructions.
 
 ### 1.1. From the Repository With Claude Desktop
 
