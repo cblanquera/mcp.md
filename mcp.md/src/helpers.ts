@@ -127,16 +127,17 @@ export function glob(root: string, patterns: string[]) {
   const out: string[] = [];
   //walks the given directory recursively returning all .md files
   function walk(dir: string) {
-    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-      const p = path.join(dir, e.name);
-      if (e.isDirectory()) walk(p);
-      else if (e.isFile() && e.name.endsWith('.md')) out.push(p);
+    for (const entity of fs.readdirSync(dir, { withFileTypes: true })) {
+      const pathname = path.join(dir, entity.name);
+      if (entity.isDirectory()) walk(pathname);
+      else if (entity.isFile() && entity.name.endsWith('.md')) out.push(pathname);
     }
   }
   //start walking for each pattern's base path
-  patterns.forEach(p => {
-    const base = p.includes('**') ? p.split('**')[0] : '';
-    walk(path.join(root, base));
+  patterns.forEach(pattern => {
+    const base = pattern.includes('**') ? pattern.split('**')[0] : '';
+    const folder = base.startsWith('/') ? path.join(root, base) : base;
+    walk(folder);
   });
   //return the collected .md files
   return out;

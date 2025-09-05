@@ -1,6 +1,6 @@
 {
   "name": "mcp.md",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "description": "Turn your markdown into an MCP",
   "author": "Chris <chris@incept.asia>",

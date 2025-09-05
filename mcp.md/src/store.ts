@@ -52,9 +52,13 @@ export async function ingest(cwd: string, log?: Logger) {
   //   max_chunk_tokens: 400
   //   overlap_tokens: 32
   const { inputs, output, batch_size } = getConfig(cwd);
+  //determine output storage path
+  const storage = !output.startsWith('/') 
+    ? path.join(cwd, output) 
+    : output;
 
   //initialize the store
-  const store = new JsonlStore(path.join(cwd, output));
+  const store = new JsonlStore(storage);
   const tags = new Set<string>(['ruleset', 'knowledge base']);
   //ingest each repo
   for (const { topic, paths, rank } of inputs) {

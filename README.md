@@ -11,7 +11,7 @@ Turn your markdown into an MCP.
 ```bash
 $ mkdir my-mcp.md
 $ cd my-mcp.md
-$ npx --y mcp.md@latest example -v
+$ npx --y mcp.md@latest -- example -v
 $ npm install
 $ pwd
 ```
@@ -72,11 +72,7 @@ Here is the project's README to help you get started:
 
 ## 2. Usage
 
-You can manually start the server like the following.
-
-```bash
-$ node [pwd]/mcp.md.js -- serve -v
-```
+All you need to do is configure `inputs` in `config.yml` to where your markdown files are actually located and ingest them into your database. The following sections cover the prescribed steps.
 
 ## 2.1. Configuration
 
@@ -91,6 +87,7 @@ version: 0.0.1
 inputs:
   - topic: coding
     # Relative to [pwd]
+    # Start with / for an exact path
     paths: [ "docs/coding/**/*.md" ]
     # When there are conflicting rules, the lower rank wins
     rank: 10
@@ -101,6 +98,7 @@ inputs:
     paths: [ "docs/testing/**/*.md" ]
     rank: 30
 # Where to save your database files relative to [pwd]
+# Start with / for an exact path
 output: "database"
 # Batch size of vectors: 64, 128, 256, 512, etc.
 batch_size: 64
@@ -124,7 +122,15 @@ The MCP uses `Xenova/all-MiniLM-L6-v2` locally to determine the best search quer
 Everytime you add or edit new markdown you'll need to update your database like the following.
 
 ```bash
-$ node [pwd]/mcp.md.js -- ingest -v
+$ npx --y mcp.md@latest -- ingest -v
+```
+
+## 2.3. Starting Your MCP Server
+
+You can manually start the server like the following.
+
+```bash
+$ npx --y mcp.md@latest -- serve -v
 ```
 
 ## 3. Maximizing Your Knowledge Base

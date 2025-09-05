@@ -167,8 +167,12 @@ export function registerBuildBrief(server: McpServer, store: Store) {
 
 export default async function serve(cwd: string, terminal: Terminal) {
   const { name, version, inputs, output } = getConfig(cwd);
+  //determine output storage path
+  const storage = !output.startsWith('/') 
+    ? path.join(cwd, output) 
+    : output;
   try {
-    const store = new Store(path.join(cwd, output));
+    const store = new Store(storage);
     const server = new McpServer({ name, version });
 
     registerSearchContext(server, store);
