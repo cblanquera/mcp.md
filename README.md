@@ -11,7 +11,7 @@ Turn your markdown into an MCP.
 ```bash
 $ mkdir my-mcp.md
 $ cd my-mcp.md
-$ npx --y mcp.md example -v
+$ npx --y mcp.md@latest example -v
 $ npm install
 ```
 
