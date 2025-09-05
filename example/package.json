@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "mcp.md": "mcp.md",
+    "mcp.md": "node ./node_modules/mcp.md/bin.js",
     "test": "node ./test.js"
   },
   "dependencies": {

@@ -11,13 +11,14 @@ Turn your markdown into an MCP.
 ```bash
 $ mkdir my-mcp.md
 $ cd my-mcp.md
-$ npx --y mcp.md example
+$ npx --y mcp.md example -v
+$ npm install
 ```
 
  2. Next, run the following command to vecorize your markup.
 
 ```bash
-$ npx --y mcp.md ingest
+$ npm run mcp.md ingest -v
 ```
 
  3. Use `pwd` to get the full MCP path and edit your MCP server configuration by following one of the options below.
@@ -29,8 +30,14 @@ Add the following configuration to your `claude_desktop_config.json`.
 ```json
 {
   "name": "mcp.md",
-  "command": "npx",
-  "args": [ "--y", "mcp.md",  "serve", "--cwd", "[pwd]" ]
+  "command": "npm",
+  "args": [ 
+    "--prefix",
+    "[pwd]",
+    "run",
+    "mcp.md",
+    "serve"
+  ]
 }
 ```
 
@@ -42,8 +49,14 @@ Add the following configuration to your `cline_mcp_settings.json`.
 {
   "mcpServers": {
     "mcp.md": {
-      "command": "npx",
-      "args": [ "--y", "mcp.md", "serve", "--cwd", "[pwd]" ]
+      "command": "npm",
+      "args": [ 
+        "--prefix",
+        "[pwd]",
+        "run",
+        "mcp.md",
+        "serve"
+      ]
     }
   }
 }
@@ -71,7 +84,7 @@ Here is the project's README to help you get started:
 You can manually start the server like the following.
 
 ```bash
-$ npx mcp.md server
+$ npm run mcp.md server -v
 ```
 
 ## 2.1. Configuration
@@ -120,7 +133,7 @@ The MCP uses `Xenova/all-MiniLM-L6-v2` locally to determine the best search quer
 Everytime you add or edit new markdown you'll need to update your database like the following.
 
 ```bash
-$ npx mcp.md ingest
+$ npx run mcp.md ingest
 ```
 
 ## 3. Maximizing Your Knowledge Base

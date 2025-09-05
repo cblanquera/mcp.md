@@ -10,7 +10,7 @@ import { ensureDir } from './helpers.js';
 import { ingest } from './store.js';
 import server from './server.js';
 
-export const exampleConfig = `
+export const config = `
 name: "my-mcp"
 version: 0.0.1
 inputs:
@@ -18,7 +18,7 @@ inputs:
     paths: [ "docs/**/*.md" ]
 `.trim();
 
-export const exampleMarkdown = `
+export const doc = `
 # Ballroom Dance Styles
 
 The following are popular dance styles:
@@ -28,6 +28,18 @@ The following are popular dance styles:
  - Waltz
  - Rumba
 `.trim();
+
+export const project = {
+  "name": "mymcp.md",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "mcp.md": "node ./node_modules/mcp.md/bin.js"
+  },
+  "dependencies": {
+    "mcp.md": "^0.0.4"
+  }
+};
 
 /**
  * Returns a terminal interface
@@ -41,10 +53,7 @@ export default function terminal(argv = process.argv) {
 
   terminal.on('log', req => {
     const type = req.data.path('type', 'log');
-    const ignore = [ 'log', 'info', 'system', 'warning', 'success' ];
-    if (!verbose && ignore.includes(type)) {
-      return;
-    }
+    if (!verbose) return;
     const message = req.data.path('message', '');
     if (!message) return;
     if (type === 'error') {
@@ -100,12 +109,21 @@ export default function terminal(argv = process.argv) {
       cwd = process.cwd();
     }
     //$ touch my-mcp.md/config.yml
-    fs.writeFileSync(path.join(cwd, 'config.yml'), exampleConfig);
+    fs.writeFileSync(path.join(cwd, 'config.yml'), config);
     await logger('success', 'Created config.yml');
     //$ touch my-mcp.md/docs/hello.md
     ensureDir(path.join(cwd, 'docs'));
-    fs.writeFileSync(path.join(cwd, 'docs', 'hello.md'), exampleMarkdown);
+    fs.writeFileSync(path.join(cwd, 'docs', 'hello.md'), doc);
     await logger('success', 'Created docs/hello.md');
+    //$ touch my-mcp.md/package.json
+    fs.writeFileSync(
+      path.join(cwd, 'package.json'), 
+      JSON.stringify(project, null, 2)
+    );
+    await logger('success', 'Created package.json');
+    //$ npm install --save mcp.md
+    await logger('info', 'Run "npm install" to install dependencies');
+    await logger('success', 'Example project created successfully!');
   });
 
   return terminal;

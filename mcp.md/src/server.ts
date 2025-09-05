@@ -190,7 +190,10 @@ export default async function serve(cwd: string, terminal: Terminal) {
         });
         process.exit(1);
       } else {
-        console.log('MCP transport connection closed during shutdown');
+        await terminal.resolve('log', {
+          type: 'error',
+          message: 'MCP transport connection closed during shutdown',
+        });
       }
     };
 
