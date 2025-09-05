@@ -25,7 +25,7 @@ export const project = {
     "mcp.md": "node ./node_modules/mcp.md/bin.js"
   },
   "dependencies": {
-    "mcp.md": "^0.0.11"
+    "mcp.md": "^0.0.12"
   }
 };
 
