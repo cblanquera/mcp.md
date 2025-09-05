@@ -41,7 +41,7 @@ export default function terminal(argv = process.argv) {
 
   terminal.on('log', req => {
     const type = req.data.path('type', 'log');
-    const ignore = [ 'log', 'info', 'system' ];
+    const ignore = [ 'log', 'info', 'system', 'warning', 'success' ];
     if (!verbose && ignore.includes(type)) {
       return;
     }
@@ -68,10 +68,7 @@ export default function terminal(argv = process.argv) {
     try {
       await ingest(cwd, logger);
     } catch (error) {
-      await terminal.resolve('log', {
-        type: 'error',
-        message: `Failed to ingest files: ${(error as Error).message}`
-      });
+      await logger('error', `Failed to ingest files: ${(error as Error).message}`);
       throw error;
     }
   });

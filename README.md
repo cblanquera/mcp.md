@@ -30,7 +30,7 @@ Add the following configuration to your `claude_desktop_config.json`.
 {
   "name": "mcp.md",
   "command": "npx",
-  "args": [ "--y",  "serve", "--cwd", "[pwd]" ]
+  "args": [ "--y", "mcp.md",  "serve", "--cwd", "[pwd]" ]
 }
 ```
 
@@ -43,7 +43,7 @@ Add the following configuration to your `cline_mcp_settings.json`.
   "mcpServers": {
     "mcp.md": {
       "command": "npx",
-      "args": [ "--y",  "serve", "--cwd", "[pwd]" ]
+      "args": [ "--y", "mcp.md", "serve", "--cwd", "[pwd]" ]
     }
   }
 }
