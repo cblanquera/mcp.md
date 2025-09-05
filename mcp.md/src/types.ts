@@ -1,7 +1,7 @@
 export type Input = { 
   topic: string,
   paths: string[],
-  rank: number
+  rank?: number
 };
 export type Config = { 
   name: string,

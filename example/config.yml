@@ -1,4 +1,4 @@
-name: "My Context"
+name: "my-mcp"
 version: 0.0.1
 inputs:
   - topic: coding

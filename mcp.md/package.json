@@ -101,9 +101,7 @@
     "LICENSE",
     "README.md"
   ],
-  "bin": {
-    "mcp.md": "bin.js"
-  },
+  "bin": "bin.js",
   "scripts": {
     "build": "yarn build:tsc && yarn build:pkg",
     "build:pkg": "yarn build:pkg:cjs && yarn build:pkg:esm",

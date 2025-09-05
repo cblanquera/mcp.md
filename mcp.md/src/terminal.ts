@@ -1,10 +1,33 @@
 //fills
 import './polyfills.js'; 
+//node
+import fs from 'node:fs';
+import path from 'node:path';
 //modules
 import { Terminal } from '@stackpress/lib';
 //src
+import { ensureDir } from './helpers.js';
 import { ingest } from './store.js';
 import server from './server.js';
+
+export const exampleConfig = `
+name: "my-mcp"
+version: 0.0.1
+inputs:
+  - topic: general
+    paths: [ "docs/**/*.md" ]
+`.trim();
+
+export const exampleMarkdown = `
+# Ballroom Dance Styles
+
+The following are popular dance styles:
+
+ - Tango
+ - Cha cha
+ - Waltz
+ - Rumba
+`.trim();
 
 /**
  * Returns a terminal interface
@@ -63,18 +86,29 @@ export default function terminal(argv = process.argv) {
     
     try {
       // Start the MCP server
-      await terminal.resolve('log', { 
-        type: 'success', 
-        message: 'Starting MCP server...' 
-      });
+      await logger('success', 'Starting MCP server...');
       await server(cwd, terminal);
-    } catch (error) {
-      await terminal.resolve('log', { 
-        type: 'error', 
-        message: `Failed to start MCP server: ${(error as Error).message}` 
-      });
-      throw error;
+    } catch (e) {
+      const error = e as Error;
+      await logger('error', `Failed to start MCP server: ${error.message}`);
+      throw e;
     }
+  });
+
+  terminal.on('example', async req => {
+    //ex. --cwd /some/path
+    //ex. --cwd .
+    let cwd = req.data.path('cwd', process.cwd());
+    if (cwd.startsWith('.')) {
+      cwd = process.cwd();
+    }
+    //$ touch my-mcp.md/config.yml
+    fs.writeFileSync(path.join(cwd, 'config.yml'), exampleConfig);
+    await logger('success', 'Created config.yml');
+    //$ touch my-mcp.md/docs/hello.md
+    ensureDir(path.join(cwd, 'docs'));
+    fs.writeFileSync(path.join(cwd, 'docs', 'hello.md'), exampleMarkdown);
+    await logger('success', 'Created docs/hello.md');
   });
 
   return terminal;
