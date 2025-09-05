@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 //src
-import type { Chunk, Logger } from './types.js';
+import type { RawChunk, Chunk, Logger } from './types.js';
 import { embed, glob, getConfig, toChunks } from './helpers.js';
 
 /**
@@ -63,26 +63,28 @@ export async function ingest(cwd: string, log?: Logger) {
   //ingest each repo
   for (const { topic, paths, rank } of inputs) {
     //find all markdown files in the repo
-    const files = glob(cwd, paths);
-    //get raw chunks data
-    const rawChunks = files
-      //filter out any files starting with `.` (these are private)
-      .filter(pathname => !path.basename(pathname).startsWith('.'))
-      //change from absolute to relative paths
-      .map(pathname => pathname.substring(cwd.length))
-      //create the chunks
-      .flatMap(pathname => toChunks(topic, cwd, pathname));
+    const chunks: RawChunk[] = [];
+    for ( const [ root, files ] of glob(cwd, paths).entries()) {
+      chunks.push(...files
+        //filter out any files starting with `.` (these are private)
+        .filter(pathname => !path.basename(pathname).startsWith('.'))
+        //make absolute to relative to root
+        .map(pathname => pathname.substring(root.length + 1))
+        //create the chunks
+        .flatMap(pathname => toChunks(topic, root, pathname))
+      );
+    }
     //add all tags to the set
-    rawChunks.forEach(chunk => chunk.tags.forEach(tag => tags.add(tag)));
+    chunks.forEach(chunk => chunk.tags.forEach(tag => tags.add(tag)));
     //purge any existing chunks for this topic
     store.purge(topic);
     //embed in batches and insert into the store
-    for (let i = 0; i < rawChunks.length; i += batch_size) {
-      const batch = rawChunks.slice(i, i + batch_size);
+    for (let i = 0; i < chunks.length; i += batch_size) {
+      const batch = chunks.slice(i, i + batch_size);
       const embs = await embed(batch.map(b => b.text));
       log && log(
         'info', 
-        `Embedded ${rawChunks[i].path} ${i}-${i + batch.length} / ${rawChunks.length}`
+        `Embedded ${chunks[i].path} ${i}-${i + batch.length} / ${chunks.length}`
       );
       batch.forEach((batch, j) => {
         const chunk: Chunk = {
@@ -93,7 +95,7 @@ export async function ingest(cwd: string, log?: Logger) {
         store.insert(topic, chunk);
       });
     }
-    log && log('success', `Ingested ${topic}: ${rawChunks.length} chunks`);
+    log && log('success', `Ingested ${topic}: ${chunks.length} chunks`);
   }
   //save the tags to tags.json
   tags.delete('');

@@ -1,9 +1,9 @@
 export const config = `
 name: "my-mcp"
-version: 0.0.1
+version: 0.1.0
 inputs:
   - topic: general
-    paths: [ "docs/**/*.md" ]
+    paths: [ "docs" ]
 `.trim();
 
 export const doc = `
@@ -25,7 +25,7 @@ export const project = {
     "mcp.md": "node ./node_modules/mcp.md/bin.js"
   },
   "dependencies": {
-    "mcp.md": "^0.0.9"
+    "mcp.md": "^0.0.10"
   }
 };
 

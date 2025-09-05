@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "mcp.md": "node ./node_modules/mcp.md/bin.js",
+    "mcp.md": "node ../node_modules/mcp.md/bin.js",
     "test": "node ./test.js"
   },
   "dependencies": {
-    "mcp.md": "0.0.9"
+    "mcp.md": "0.0.10"
   }
 }

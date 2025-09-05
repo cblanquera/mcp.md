@@ -16,7 +16,8 @@ import server from './server.js';
  */
 export default function terminal(argv = process.argv) {
   const terminal = new Terminal(argv, '[mcp.md]');
-  const verbose = terminal.expect<boolean>(['v', 'verbose'], false);
+  const flags = [ 'v', 'verbose', 'l', 'log', 'loud' ];
+  const verbose = terminal.expect<boolean>(flags, false);
   const logger = async (type: string, message: string) => {
     await terminal.resolve('log', { type, message });
   };

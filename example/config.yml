@@ -2,13 +2,13 @@ name: "my-mcp"
 version: 0.0.1
 inputs:
   - topic: coding
-    paths: [ "docs/coding/**/*.md" ]
+    paths: [ "docs/coding" ]
     rank: 10
   - topic: documenting
-    paths: [ "docs/documenting/**/*.md" ]
+    paths: [ "docs/documenting" ]
     rank: 10
   - topic: testing
-    paths: [ "docs/testing/**/*.md" ]
+    paths: [ "docs/testing" ]
     rank: 10
 output: "database"
 batch_size: 64

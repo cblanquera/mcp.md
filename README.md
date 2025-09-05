@@ -87,14 +87,14 @@ inputs:
   - topic: coding
     # Relative to [pwd]
     # Start with / for an exact path
-    paths: [ "docs/coding/**/*.md" ]
+    paths: [ "docs/coding" ]
     # When there are conflicting rules, the lower rank wins
     rank: 10
   - topic: documenting
-    paths: [ "docs/documenting/**/*.md" ]
+    paths: [ "docs/documenting" ]
     rank: 20
   - topic: testing
-    paths: [ "docs/testing/**/*.md" ]
+    paths: [ "docs/testing" ]
     rank: 30
 # Where to save your database files relative to [pwd]
 # Start with / for an exact path

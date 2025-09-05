@@ -123,24 +123,31 @@ export function getPackageInfo(): any {
  * that match the provided glob patterns.
  * (super-tiny glob: only ** / *.md and *.md)
  */
-export function glob(root: string, patterns: string[]) {
-  const out: string[] = [];
+export function glob(root: string, paths: string[]) {
+  const files = new Map<string, string[]>();
   //walks the given directory recursively returning all .md files
-  function walk(dir: string) {
-    for (const entity of fs.readdirSync(dir, { withFileTypes: true })) {
-      const pathname = path.join(dir, entity.name);
-      if (entity.isDirectory()) walk(pathname);
-      else if (entity.isFile() && entity.name.endsWith('.md')) out.push(pathname);
+  function walk(cwd: string, folder: string) {
+    for (const entity of fs.readdirSync(folder, { withFileTypes: true })) {
+      const pathname = path.join(folder, entity.name);
+      if (entity.isDirectory()) walk(cwd, pathname);
+      else if (entity.isFile() && entity.name.endsWith('.md')) {
+        //if theres no entry for this cwd yet
+        if (!files.has(cwd)) {
+          //create one
+          files.set(cwd, []);
+        }
+        //now add the file to the list
+        files.get(cwd)?.push(pathname);
+      }
     }
   }
   //start walking for each pattern's base path
-  patterns.forEach(pattern => {
-    const base = pattern.includes('**') ? pattern.split('**')[0] : '';
-    const folder = base.startsWith('/') ? path.join(root, base) : base;
-    walk(folder);
+  paths.forEach(folder => {
+    const current = !folder.startsWith('/') ? path.join(root, folder) : folder
+    walk(current, current);
   });
   //return the collected .md files
-  return out;
+  return files;
 }
 
 /**
@@ -178,11 +185,11 @@ export function toChunks(
   topic: string,
   //ex. /file/to/reactus
   fileRoot: string,
-  //ex. /docs/to/reactus/lib.md
+  //ex. docs/to/reactus/lib.md
   pathname: string,
 ) {
   //read the markdown file
-  const raw = fs.readFileSync(fileRoot + pathname, 'utf8');
+  const raw = fs.readFileSync(path.join(fileRoot, pathname), 'utf8');
   //YAML front-matter → data
   const { content, data } = matter(raw); 
   //split content into lines
@@ -196,7 +203,7 @@ export function toChunks(
   //collect all tags for per repo
   const topicTags = new Set([ topic ]);
   //add tags from pathname
-  pathname.split('/').slice(1).forEach(name => {
+  pathname.split('/').forEach(name => {
     const tag = tagify(name)
     if (tag) topicTags.add(tag);
   });
@@ -232,10 +239,11 @@ export function toChunks(
   };
 
   //process each line
+  let inCode: string | false = false;
   for (const line of lines) {
     //check for headers
     const headers = line.match(/^(#{1,6})\s+(.*)$/);
-    if (headers) {
+    if (headers && !inCode) {
       //flush the current chunk
       flush();
       //...next see if the headers changed...
@@ -254,6 +262,15 @@ export function toChunks(
         sectionMap[level - 1]++;
       }
       continue;
+    }
+    //we need to case for markdown in code...
+    const code = line.match(/(\`{3,})/);
+    if (code) {
+      if (!inCode) {
+        inCode = code[1];
+      } else if (inCode === code[1]) {
+        inCode = false;
+      }
     }
     current.push(line);
   }
