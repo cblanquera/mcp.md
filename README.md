@@ -11,14 +11,14 @@ Turn your markdown into an MCP.
 ```bash
 $ mkdir my-mcp.md
 $ cd my-mcp.md
-$ npx --y mcp.md@latest -- example -v
+$ npx --y mcp.md@latest example --loud
 $ npm install
 ```
 
  2. Next, run the following command to vecorize your markup.
 
 ```bash
-$ npx --y mcp.md@latest -- ingest -v
+$ npx --y mcp.md@latest ingest --loud
 ```
 
  3. Edit your MCP server configuration by following one of the options below.
@@ -87,14 +87,14 @@ inputs:
   - topic: coding
     # Relative to [pwd]
     # Start with / for an exact path
-    paths: [ "docs/coding" ]
+    paths: [ "docs/coding/**/*.md" ]
     # When there are conflicting rules, the lower rank wins
     rank: 10
   - topic: documenting
-    paths: [ "docs/documenting" ]
+    paths: [ "docs/documenting/**/*.md" ]
     rank: 20
   - topic: testing
-    paths: [ "docs/testing" ]
+    paths: [ "docs/testing/**/*.md" ]
     rank: 30
 # Where to save your database files relative to [pwd]
 # Start with / for an exact path
@@ -112,7 +112,7 @@ budgets:
   overlap_tokens: 32
 ```
 
-The MCP uses `Xenova/all-MiniLM-L6-v2` locally to determine the best search query term for the MCP. Think about it like random prompt → correct query → ask MCP. You can upgrade this to use your OpenAI key by adding an `openai_host`, `openai_key` and setting `embedding_model` to `text-embedding-3-small` in `config.yml`.
+The MCP uses `Xenova/all-MiniLM-L6--loud2` locally to determine the best search query term for the MCP. Think about it like random prompt → correct query → ask MCP. You can upgrade this to use your OpenAI key by adding an `openai_host`, `openai_key` and setting `embedding_model` to `text-embedding-3-small` in `config.yml`.
 
 > WARNING: OpenRouter doesn't support the `/embeddings` API endpoint. This is called when providing an OpenAI compatible host.
 
@@ -121,7 +121,7 @@ The MCP uses `Xenova/all-MiniLM-L6-v2` locally to determine the best search quer
 Everytime you add or edit new markdown you'll need to update your database like the following.
 
 ```bash
-$ npx --y mcp.md@latest -- ingest -v
+$ npx --y mcp.md@latest ingest --loud
 ```
 
 ## 2.3. Starting Your MCP Server
@@ -129,7 +129,7 @@ $ npx --y mcp.md@latest -- ingest -v
 You can manually start the server like the following.
 
 ```bash
-$ npx --y mcp.md@latest -- serve -v
+$ npx --y mcp.md@latest serve --loud
 ```
 
 ## 3. Maximizing Your Knowledge Base
