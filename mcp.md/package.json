@@ -1,6 +1,6 @@
 {
   "name": "mcp.md",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Turn your markdown into an MCP",
   "author": "Chris <chris@incept.asia>",
@@ -96,7 +96,6 @@
   "files": [
     "bin.js",
     "cjs",
-    "context-pack.yaml",
     "esm",
     "LICENSE",
     "README.md"
