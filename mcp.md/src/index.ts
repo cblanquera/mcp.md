@@ -7,14 +7,24 @@ export type {
 } from './types.js';
 
 export {
-  embed,
+  //general helpers
   ensureDir,
+  //server helpers
   getConfig,
-  getPackageInfo,
+  //store helpers
+  appendJson,
+  cosineSimilarity,
+  dotProduct,
+  vectorNorm,
+  chunks,
+  embed,
   glob,
-  synced,
+  loadJsonl,
+  loadJson,
+  resolvePath,
   tagify,
-  toChunks
+  toChunks,
+  saveJson,
 } from './helpers.js'
 
 export {
@@ -29,22 +39,25 @@ export {
   registerBuildBrief
 } from './server.js';
 
-export {
-  vectorNorm,
-  dotProduct,
-  cosineSimilarity,
-  ingest
-} from './store.js';
-
 import * as templates from './templates.js';
 
 import serve from './server.js';
-import Store from './store.js';
+import JsonlStore from './JsonlStore.js';
+import AbstractIndexer from './indexers/AbstractIndexer.js';
+import IdIndexer from './indexers/IdIndexer.js';
+import DocumentIndexer from './indexers/DocumentIndexer.js';
+import TagIndexer from './indexers/TagIndexer.js';
+import EmbeddingIndexer from './indexers/EmbeddingIndexer.js';
 import terminal from './terminal.js';
 
 export {
   serve,
-  Store,
+  JsonlStore,
+  AbstractIndexer,
+  IdIndexer,
+  DocumentIndexer,
+  TagIndexer,
+  EmbeddingIndexer,
   terminal,
   templates
 };

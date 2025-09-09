@@ -7,7 +7,7 @@ import path from 'node:path';
 import { Terminal } from '@stackpress/lib';
 //src
 import { ensureDir } from './helpers.js';
-import { ingest } from './store.js';
+import JsonlStore from './JsonlStore.js';
 import { config, doc, project, bin } from './templates.js';
 import server from './server.js';
 
@@ -46,7 +46,7 @@ export default function terminal(argv = process.argv) {
       cwd = process.cwd();
     }
     try {
-      await ingest(cwd, logger);
+      await JsonlStore.ingest(cwd, logger);
     } catch (error) {
       await logger('error', `Failed to ingest files: ${(error as Error).message}`);
       throw error;
