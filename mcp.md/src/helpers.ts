@@ -105,9 +105,9 @@ export async function *chunks(
   inputs: Input[], 
   size: number
 ) {  
-  //ingest each repo
+  //ingest each topic
   for (const { topic, paths, rank } of inputs) {
-    //find all markdown files in the repo
+    //find all markdown files in the topic
     const chunks: RawChunk[] = [];
     for ( const [ root, files ] of glob(cwd, paths).entries()) {
       chunks.push(...files

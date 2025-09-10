@@ -5,17 +5,21 @@ import * as z from 'zod';
 import JsonlStore from '../JsonlStore.js';
 import { toMcpText } from '../helpers.js';
 
+export type Args = z.infer<typeof args>;
+
 export const schema = {
   query: z.string().optional().describe(
-    `Substring filter to match tags (case-insensitive).
-     Examples: "plugin", "auth"`
+    'Substring filter to match tags (case-insensitive). '
+    + '\nExamples: "plugin", "auth"'
   ),
 
-  limit: z.number().int().min(1).max(500).default(200).describe(
-    `Maximum number of tags to return (1–500).
-     Examples: 50, 100`
+  limit: z.number().int().min(1).max(500).optional().describe(
+    'Maximum number of tags to return (1-500). '
+    + '\nExamples: 50, 100'
   )
 };
+
+export const args = z.object(schema);
 
 export const info = { 
   title: 'List Tags', 
@@ -23,10 +27,12 @@ export const info = {
   inputSchema: schema 
 };
 
+export async function handler(args: Args, store: JsonlStore) {
+  const { query, limit = 200 } = z.object(schema).parse(args);
+  return toMcpText({ tags: store.searchTags({ query, limit }) });
+};
+
 export function register(server: McpServer, store: JsonlStore) {
-  server.registerTool('list_tags', info, async args => {
-    const { query, limit } = z.object(schema).parse(args);
-    return toMcpText({ tags: store.searchTags({ query, limit }) });
-  });
+  server.registerTool('list_tags', info, args => handler(args, store));
 };
 

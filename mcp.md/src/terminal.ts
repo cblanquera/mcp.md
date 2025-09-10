@@ -43,7 +43,7 @@ export default function terminal(argv = process.argv) {
     //ex. --cwd .
     let cwd = req.data.path('cwd', process.cwd());
     if (cwd.startsWith('.')) {
-      cwd = process.cwd();
+      cwd = path.join(process.cwd(), cwd);
     }
     try {
       await JsonlStore.ingest(cwd, logger);
@@ -58,7 +58,7 @@ export default function terminal(argv = process.argv) {
     //ex. --cwd .
     let cwd = req.data.path('cwd', process.cwd());
     if (cwd.startsWith('.')) {
-      cwd = process.cwd();
+      cwd = path.join(process.cwd(), cwd);
     }
     
     try {

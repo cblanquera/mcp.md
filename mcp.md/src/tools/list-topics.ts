@@ -12,8 +12,10 @@ export const info = {
   inputSchema: schema,
 };
 
+export async function handler(store: JsonlStore) {
+  return toMcpText({ topics: store.topics });
+};
+
 export function register(server: McpServer, store: JsonlStore) {
-  server.registerTool('list_topics', info, async () => {
-    return toMcpText({ topics: store.topics });
-  });
+  server.registerTool('list_topics', info, () => handler(store));
 };

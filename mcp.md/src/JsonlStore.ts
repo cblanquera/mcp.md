@@ -59,12 +59,14 @@ export default class JsonlStore {
     const store = new JsonlStore(storage, topics);
     for await (const { chunk, stats } of chunks(store, cwd, inputs, size)) {
       const position = store.insert(chunk.topic, chunk);
+      const headings = chunk.headings.join(' → ');
+      const section = chunk.section.indexOf('.') > -1 
+        ? chunk.section.substring(chunk.section.indexOf('.') + 1) + ' '
+        : '';
+      const message = `${section}${headings}: ${stats.current} / ${stats.total}`;
+      log && log('info', `Inserted ${message}`);
       if (stats.current === stats.total) {
         log && log('success', `Ingested ${chunk.topic}: ${stats.total} chunks`);
-      } else {
-        const headings = chunk.headings.join(' → ');
-        const message = `${headings}: ${stats.current} / ${stats.total}`;
-        log && log('info', `Inserting ${message}`);
       }
       //this is where we all all the indexers...
       idIndexer.index(chunk, position);
@@ -369,7 +371,7 @@ export default class JsonlStore {
 
   /** 
    * Fetch an entire document or a subset of sections by ids or by 
-   * heading-paths. (document)
+   * heading-paths.
    */
   public getDocumentMeta(topic: string, document: string, sections?: string[]) {
     //get document entry from index
@@ -408,7 +410,7 @@ export default class JsonlStore {
   }
 
   /**
-   * Retrieves the sections of a document. (sections)
+   * Retrieves the sections of a document.
    */
   public getDocumentSections(topic: string, document: string) {
     const key = `${topic}:${document}`;
@@ -418,7 +420,7 @@ export default class JsonlStore {
 
   /**
    * Fetch specific section(s) by id; small neighborhood expansion can 
-   * be done using the precomputed TOC. (section)
+   * be done using the precomputed TOC.
    */
   public getSectionsByIds(
     ids: string[], 
@@ -491,7 +493,7 @@ export default class JsonlStore {
   }
 
   /**
-   * Retrieves documents from the index. (documents)
+   * Retrieves documents from the index.
    */
   public searchDocuments(options?: {
     topics?: string[],
@@ -557,12 +559,12 @@ export default class JsonlStore {
     const nextCursor = nextOffset < documents.length 
       ? Buffer.from(String(nextOffset), 'utf8').toString('base64') 
       : undefined;
-    return { results, nextCursor };
+    return { documents: results, nextCursor };
   }
 
   /** 
    * List available tags with counts. Supports simple query filtering 
-   * and limiting. (tags)
+   * and limiting.
    */
   public searchTags(options?: { query?: string, limit?: number }) {
     //get options
@@ -583,7 +585,7 @@ export default class JsonlStore {
   }
 
   /**
-   * Suggest tags based on existing tags in the index. (suggest)
+   * Suggest tags based on existing tags in the index.
    */
   public suggestTags(
     phrases: string[], 
