@@ -1,0 +1,1369 @@
+{
+  "coding:Coding-Standards.md": {
+    "topic": "coding",
+    "tags": [
+      "coding",
+      "coding standards",
+      "knowledge base",
+      "coding standards style guide",
+      "general principles",
+      "ruleset",
+      "consistency requirements",
+      "collaboration guidelines",
+      "formatting standards",
+      "line length",
+      "indentation",
+      "quotes",
+      "semicolons",
+      "spaces in data structures",
+      "commenting and documentation",
+      "jsdoc comments",
+      "inline comments",
+      "naming conventions",
+      "variable naming",
+      "function naming",
+      "class and component naming",
+      "file and folder naming",
+      "project management practices",
+      "git commits",
+      "dependencies",
+      "environment variables"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "coding:Coding-Standards.md#1",
+        "section_path": [
+          "Coding Standards Style Guide"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.3",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Commenting and Documentation"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.3.2",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Commenting and Documentation",
+          "Inline Comments"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.3.1",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Commenting and Documentation",
+          "JSDoc Comments"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.2",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Formatting Standards"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.2.2",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Formatting Standards",
+          "Indentation"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.2.1",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Formatting Standards",
+          "Line Length"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.2.3",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Formatting Standards",
+          "Quotes"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.2.4",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Formatting Standards",
+          "Semicolons"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.2.5",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Formatting Standards",
+          "Spaces in Data Structures"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.1",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "General Principles"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.1.2",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "General Principles",
+          "Collaboration Guidelines"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.1.1",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "General Principles",
+          "Consistency Requirements"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.4",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Naming Conventions"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.4.3",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Naming Conventions",
+          "Class and Component Naming"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.4.4",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Naming Conventions",
+          "File and Folder Naming"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.4.2",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Naming Conventions",
+          "Function Naming"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.4.1",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Naming Conventions",
+          "Variable Naming"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.5",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Project Management Practices"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.5.2",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Project Management Practices",
+          "Dependencies"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.5.3",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Project Management Practices",
+          "Environment Variables"
+        ]
+      },
+      {
+        "id": "coding:Coding-Standards.md#1.5.1",
+        "section_path": [
+          "Coding Standards Style Guide",
+          "Project Management Practices",
+          "Git Commits"
+        ]
+      }
+    ]
+  },
+  "coding:ReactJS-Style-Guide.md": {
+    "topic": "coding",
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "knowledge base",
+      "component formatting",
+      "ruleset",
+      "wrapping components",
+      "prop spacing",
+      "code organization",
+      "organization outline",
+      "file structure and hooks",
+      "aggregate hooks",
+      "file structure options"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1",
+        "section_path": [
+          "ReactJS Style Guide"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.2",
+        "section_path": [
+          "ReactJS Style Guide",
+          "Code Organization"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.2.1",
+        "section_path": [
+          "ReactJS Style Guide",
+          "Code Organization",
+          "Organization Outline"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.1",
+        "section_path": [
+          "ReactJS Style Guide",
+          "Component Formatting"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.1.2",
+        "section_path": [
+          "ReactJS Style Guide",
+          "Component Formatting",
+          "Prop Spacing"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.1.1",
+        "section_path": [
+          "ReactJS Style Guide",
+          "Component Formatting",
+          "Wrapping Components"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.3",
+        "section_path": [
+          "ReactJS Style Guide",
+          "File Structure and Hooks"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.3.1",
+        "section_path": [
+          "ReactJS Style Guide",
+          "File Structure and Hooks",
+          "Aggregate Hooks"
+        ]
+      },
+      {
+        "id": "coding:ReactJS-Style-Guide.md#1.3.2",
+        "section_path": [
+          "ReactJS Style Guide",
+          "File Structure and Hooks",
+          "File Structure Options"
+        ]
+      }
+    ]
+  },
+  "coding:Typescript-Style-Guide.md": {
+    "topic": "coding",
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "knowledge base",
+      "formatting and syntax standards",
+      "ruleset",
+      "indentation and spacing",
+      "semicolons and quotes",
+      "braces and blank lines",
+      "trailing commas and lists",
+      "import and export rules",
+      "import organization",
+      "export formatting",
+      "type and class definitions",
+      "object types",
+      "interfaces vs types",
+      "generics and annotations",
+      "built in types usage",
+      "function and method typing",
+      "control flow and naming conventions",
+      "delegation",
+      "naming standards",
+      "documentation",
+      "error handling and runtime practices",
+      "error throwing",
+      "runtime and testing"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "coding:Typescript-Style-Guide.md#1",
+        "section_path": [
+          "TypeScript Style Guide"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.4",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Control Flow and Naming Conventions"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.4.1",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Control Flow and Naming Conventions",
+          "Delegation"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.4.3",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Control Flow and Naming Conventions",
+          "Documentation"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.4.2",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Control Flow and Naming Conventions",
+          "Naming Standards"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.5",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Error Handling and Runtime Practices"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.5.1",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Error Handling and Runtime Practices",
+          "Error Throwing"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.5.2",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Error Handling and Runtime Practices",
+          "Runtime and Testing"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.1",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Formatting and Syntax Standards"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.1.3",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Formatting and Syntax Standards",
+          "Braces and Blank Lines"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.1.1",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Formatting and Syntax Standards",
+          "Indentation and Spacing"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.1.2",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Formatting and Syntax Standards",
+          "Semicolons and Quotes"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.1.4",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Formatting and Syntax Standards",
+          "Trailing Commas and Lists"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.2",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Import and Export Rules"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.2.2",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Import and Export Rules",
+          "Export Formatting"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.2.1",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Import and Export Rules",
+          "Import Organization"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.3",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Type and Class Definitions"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.3.4",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Type and Class Definitions",
+          "Built-in Types Usage"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.3.5",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Type and Class Definitions",
+          "Function and Method Typing"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.3.3",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Type and Class Definitions",
+          "Generics and Annotations"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.3.2",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Type and Class Definitions",
+          "Interfaces vs Types"
+        ]
+      },
+      {
+        "id": "coding:Typescript-Style-Guide.md#1.3.1",
+        "section_path": [
+          "TypeScript Style Guide",
+          "Type and Class Definitions",
+          "Object Types"
+        ]
+      }
+    ]
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md": {
+    "topic": "documenting",
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "conversion overview",
+      "ruleset",
+      "conversion goals",
+      "input analysis",
+      "pre conversion analysis",
+      "document type classification",
+      "content inventory",
+      "gap analysis",
+      "structure transformation",
+      "title and description conversion",
+      "outline numbering implementation",
+      "table of contents generation",
+      "content reorganization",
+      "section description addition",
+      "content consolidation",
+      "document block separation",
+      "api documentation conversion",
+      "class documentation structure",
+      "method documentation conversion",
+      "property documentation conversion",
+      "formatting standardization",
+      "code block conversion",
+      "original",
+      "converted",
+      "user management",
+      "creating users",
+      "user properties",
+      "deleting users"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1",
+        "section_path": [
+          "AI Documentation Conversion Guide"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.5",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "API Documentation Conversion"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.5.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "API Documentation Conversion",
+          "Class Documentation Structure"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.5.2",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "API Documentation Conversion",
+          "Method Documentation Conversion"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.5.3",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "API Documentation Conversion",
+          "Property Documentation Conversion"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.4",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Content Reorganization"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.4.2",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Content Reorganization",
+          "Content Consolidation"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.4.3",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Content Reorganization",
+          "Document Block Separation"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.4.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Content Reorganization",
+          "Section Description Addition"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Conversion Overview"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.1.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Conversion Overview",
+          "Conversion Goals"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.1.2",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Conversion Overview",
+          "Input Analysis"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.6",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Formatting Standardization"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.6.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Formatting Standardization",
+          "Code Block Conversion"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.2",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Pre-Conversion Analysis"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.2.2",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Pre-Conversion Analysis",
+          "Content Inventory"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.2.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Pre-Conversion Analysis",
+          "Document Type Classification"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.2.3",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Pre-Conversion Analysis",
+          "Gap Analysis"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.3",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Structure Transformation"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.3.2",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Structure Transformation",
+          "Outline Numbering Implementation"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.3.3",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Structure Transformation",
+          "Table of Contents Generation"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#1.3.1",
+        "section_path": [
+          "AI Documentation Conversion Guide",
+          "Structure Transformation",
+          "Title and Description Conversion"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#3",
+        "section_path": [
+          "Converted"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#5",
+        "section_path": [
+          "Converted"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#2",
+        "section_path": [
+          "Original"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#4",
+        "section_path": [
+          "Original"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#6",
+        "section_path": [
+          "User Management"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#7",
+        "section_path": [
+          "User Management"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#6.1",
+        "section_path": [
+          "User Management",
+          "Creating Users"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#7.1",
+        "section_path": [
+          "User Management",
+          "Creating Users"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#6.3",
+        "section_path": [
+          "User Management",
+          "Deleting Users"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#7.3",
+        "section_path": [
+          "User Management",
+          "Deleting Users"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#6.2",
+        "section_path": [
+          "User Management",
+          "User Properties"
+        ]
+      },
+      {
+        "id": "documenting:AI-Documentation-Conversion-Guide.md#7.2",
+        "section_path": [
+          "User Management",
+          "User Properties"
+        ]
+      }
+    ]
+  },
+  "documenting:API-Documentation-Style-Guide.md": {
+    "topic": "documenting",
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "file organization",
+      "class documentation structure",
+      "method documentation standards",
+      "parameter tables",
+      "return value documentation",
+      "code examples",
+      "type safety documentation",
+      "cross references and integration",
+      "consistency requirements",
+      "accessibility and usability",
+      "maintenance and updates",
+      "quality validation"
+    ],
+    "corpus": "ruleset",
+    "sections": [
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1",
+        "section_path": [
+          "API Documentation Style Guide"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.10",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Accessibility and Usability"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.2",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Class Documentation Structure"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.6",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Code Examples"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.9",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Consistency Requirements"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.8",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Cross-References and Integration"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.1",
+        "section_path": [
+          "API Documentation Style Guide",
+          "File Organization"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.11",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Maintenance and Updates"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.3",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Method Documentation Standards"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.4",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Parameter Tables"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.12",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Quality Validation"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.5",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Return Value Documentation"
+        ]
+      },
+      {
+        "id": "documenting:API-Documentation-Style-Guide.md#1.7",
+        "section_path": [
+          "API Documentation Style Guide",
+          "Type Safety Documentation"
+        ]
+      }
+    ]
+  },
+  "documenting:Documentation-Style-Guide.md": {
+    "topic": "documenting",
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "knowledge base",
+      "markdown documentation guidelines",
+      "document structure requirements",
+      "ruleset",
+      "title and description",
+      "table of contents",
+      "main subjects",
+      "outline numbering system",
+      "content organization",
+      "section descriptions",
+      "the at least two rule",
+      "document blocks",
+      "formatting standards",
+      "lists",
+      "code blocks",
+      "bash example"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "documenting:Documentation-Style-Guide.md#2",
+        "section_path": [
+          "Bash example"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1",
+        "section_path": [
+          "Markdown Documentation Guidelines"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.2",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Content Organization"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.2.3",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Content Organization",
+          "Document Blocks"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.2.1",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Content Organization",
+          "Section Descriptions"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.2.2",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Content Organization",
+          "The \"At Least Two\" Rule"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.1",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Document Structure Requirements"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.1.3",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Document Structure Requirements",
+          "Main Subjects"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.1.4",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Document Structure Requirements",
+          "Outline Numbering System"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.1.2",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Document Structure Requirements",
+          "Table of Contents"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.1.1",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Document Structure Requirements",
+          "Title and Description"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.3",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Formatting Standards"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.3.2",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Formatting Standards",
+          "Code Blocks"
+        ]
+      },
+      {
+        "id": "documenting:Documentation-Style-Guide.md#1.3.1",
+        "section_path": [
+          "Markdown Documentation Guidelines",
+          "Formatting Standards",
+          "Lists"
+        ]
+      }
+    ]
+  },
+  "testing:Chai-Testing-Style-Guide.md": {
+    "topic": "testing",
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "knowledge base",
+      "mocha chai testing style guide",
+      "general testing principles",
+      "ruleset",
+      "behavior focus",
+      "test characteristics",
+      "test structure and execution",
+      "async handling",
+      "suite organization",
+      "isolation and determinism",
+      "sandbox management",
+      "time and randomness control",
+      "type safety and fixtures",
+      "type handling",
+      "fixtures",
+      "common pitfalls and solutions",
+      "bad practices avoidance",
+      "configuration and setup"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.5",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Common Pitfalls and Solutions"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.5.1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Common Pitfalls and Solutions",
+          "Bad Practices Avoidance"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.5.2",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Common Pitfalls and Solutions",
+          "Configuration and Setup"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "General Testing Principles"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.1.1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "General Testing Principles",
+          "Behavior Focus"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.1.2",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "General Testing Principles",
+          "Test Characteristics"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.3",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Isolation and Determinism"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.3.1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Isolation and Determinism",
+          "Sandbox Management"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.3.2",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Isolation and Determinism",
+          "Time and Randomness Control"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.2",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Test Structure and Execution"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.2.1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Test Structure and Execution",
+          "Async Handling"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.2.2",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Test Structure and Execution",
+          "Suite Organization"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.4",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Type Safety and Fixtures"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.4.2",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Type Safety and Fixtures",
+          "Fixtures"
+        ]
+      },
+      {
+        "id": "testing:Chai-Testing-Style-Guide.md#1.4.1",
+        "section_path": [
+          "Mocha Chai Testing Style Guide",
+          "Type Safety and Fixtures",
+          "Type Handling"
+        ]
+      }
+    ]
+  },
+  "testing:Jest-Testing-Style-Guide.md": {
+    "topic": "testing",
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "knowledge base",
+      "general testing principles",
+      "ruleset",
+      "behavior focus",
+      "test characteristics",
+      "test organization and execution",
+      "naming and descriptions",
+      "isolation and cleanup",
+      "asynchrony handling",
+      "type safety and fixtures",
+      "type usage",
+      "fixtures and data",
+      "react specific guidelines",
+      "testing approach",
+      "interactions and effects",
+      "common issues and solutions",
+      "bad practices avoidance",
+      "configuration and ci"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1",
+        "section_path": [
+          "Jest Testing Style Guide"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.5",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Common Issues and Solutions"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.5.1",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Common Issues and Solutions",
+          "Bad Practices Avoidance"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.5.2",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Common Issues and Solutions",
+          "Configuration and CI"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.1",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "General Testing Principles"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.1.1",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "General Testing Principles",
+          "Behavior Focus"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.1.2",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "General Testing Principles",
+          "Test Characteristics"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.4",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "React-Specific Guidelines"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.4.2",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "React-Specific Guidelines",
+          "Interactions and Effects"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.4.1",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "React-Specific Guidelines",
+          "Testing Approach"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.2",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Test Organization and Execution"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.2.3",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Test Organization and Execution",
+          "Asynchrony Handling"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.2.2",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Test Organization and Execution",
+          "Isolation and Cleanup"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.2.1",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Test Organization and Execution",
+          "Naming and Descriptions"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.3",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Type Safety and Fixtures"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.3.2",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Type Safety and Fixtures",
+          "Fixtures and Data"
+        ]
+      },
+      {
+        "id": "testing:Jest-Testing-Style-Guide.md#1.3.1",
+        "section_path": [
+          "Jest Testing Style Guide",
+          "Type Safety and Fixtures",
+          "Type Usage"
+        ]
+      }
+    ]
+  },
+  "fixtures:Sample-Document-1.md": {
+    "topic": "fixtures",
+    "tags": [
+      "fixtures",
+      "sample document 1",
+      "knowledge base",
+      "getting information",
+      "fetching information"
+    ],
+    "corpus": "knowledge",
+    "sections": [
+      {
+        "id": "fixtures:Sample-Document-1.md#1",
+        "section_path": [
+          "Sample Document 1"
+        ]
+      },
+      {
+        "id": "fixtures:Sample-Document-1.md#1.2",
+        "section_path": [
+          "Sample Document 1",
+          "Fetching Information"
+        ]
+      },
+      {
+        "id": "fixtures:Sample-Document-1.md#1.1",
+        "section_path": [
+          "Sample Document 1",
+          "Getting Information"
+        ]
+      },
+      {
+        "id": "fixtures:Sample-Document-1.md#1.3",
+        "section_path": [
+          "Sample Document 1",
+          "Getting Information"
+        ]
+      }
+    ]
+  }
+}

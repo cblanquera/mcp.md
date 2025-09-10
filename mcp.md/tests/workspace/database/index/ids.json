@@ -1,0 +1,3360 @@
+{
+  "coding:Coding-Standards.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 0,
+    "length": 8956,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1",
+    "headings": [
+      "Coding Standards Style Guide"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "knowledge base",
+      "coding standards style guide",
+      "general principles",
+      "ruleset",
+      "consistency requirements",
+      "collaboration guidelines",
+      "formatting standards",
+      "line length",
+      "indentation",
+      "quotes",
+      "semicolons",
+      "spaces in data structures",
+      "commenting and documentation",
+      "jsdoc comments",
+      "inline comments",
+      "naming conventions",
+      "variable naming",
+      "function naming",
+      "class and component naming",
+      "file and folder naming",
+      "project management practices",
+      "git commits",
+      "dependencies",
+      "environment variables"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:Coding-Standards.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 8956,
+    "length": 8434,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.1",
+    "headings": [
+      "Coding Standards Style Guide",
+      "General Principles"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "knowledge base",
+      "coding standards style guide",
+      "general principles"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:Coding-Standards.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 17390,
+    "length": 8890,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.1.1",
+    "headings": [
+      "Coding Standards Style Guide",
+      "General Principles",
+      "Consistency Requirements"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "general principles",
+      "consistency requirements"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 26280,
+    "length": 8711,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.1.2",
+    "headings": [
+      "Coding Standards Style Guide",
+      "General Principles",
+      "Collaboration Guidelines"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "general principles",
+      "collaboration guidelines"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 34991,
+    "length": 8464,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.2",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Formatting Standards"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "knowledge base",
+      "coding standards style guide",
+      "formatting standards"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:Coding-Standards.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 43455,
+    "length": 9267,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.2.1",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Formatting Standards",
+      "Line Length"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "formatting standards",
+      "line length"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.2.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 52722,
+    "length": 8583,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.2.2",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Formatting Standards",
+      "Indentation"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "formatting standards",
+      "indentation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.2.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 61305,
+    "length": 8656,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.2.3",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Formatting Standards",
+      "Quotes"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "formatting standards",
+      "quotes"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.2.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 69961,
+    "length": 8998,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.2.4",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Formatting Standards",
+      "Semicolons"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "formatting standards",
+      "semicolons"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.2.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 78959,
+    "length": 8788,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.2.5",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Formatting Standards",
+      "Spaces in Data Structures"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "formatting standards",
+      "spaces in data structures"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 87747,
+    "length": 8457,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.3",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Commenting and Documentation"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "commenting and documentation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 96204,
+    "length": 8914,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.3.1",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Commenting and Documentation",
+      "JSDoc Comments"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "commenting and documentation",
+      "jsdoc comments"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 105118,
+    "length": 8769,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.3.2",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Commenting and Documentation",
+      "Inline Comments"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "commenting and documentation",
+      "inline comments"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 113887,
+    "length": 8457,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.4",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Naming Conventions"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "naming conventions"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.4.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 122344,
+    "length": 8603,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.4.1",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Naming Conventions",
+      "Variable Naming"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "naming conventions",
+      "variable naming"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.4.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 130947,
+    "length": 8544,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.4.2",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Naming Conventions",
+      "Function Naming"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "naming conventions",
+      "function naming"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.4.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 139491,
+    "length": 8501,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.4.3",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Naming Conventions",
+      "Class and Component Naming"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "naming conventions",
+      "class and component naming"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.4.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 147992,
+    "length": 8603,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.4.4",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Naming Conventions",
+      "File and Folder Naming"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "naming conventions",
+      "file and folder naming"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 156595,
+    "length": 8483,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.5",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Project Management Practices"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "knowledge base",
+      "coding standards style guide",
+      "project management practices"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:Coding-Standards.md#1.5.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 165078,
+    "length": 8720,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.5.1",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Project Management Practices",
+      "Git Commits"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "project management practices",
+      "git commits"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.5.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 173798,
+    "length": 8676,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.5.2",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Project Management Practices",
+      "Dependencies"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "project management practices",
+      "dependencies"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Coding-Standards.md#1.5.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 182474,
+    "length": 8603,
+    "topic": "coding",
+    "document": "Coding-Standards.md",
+    "section": "1.5.3",
+    "headings": [
+      "Coding Standards Style Guide",
+      "Project Management Practices",
+      "Environment Variables"
+    ],
+    "tags": [
+      "coding",
+      "coding standards",
+      "ruleset",
+      "coding standards style guide",
+      "project management practices",
+      "environment variables"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 191077,
+    "length": 8780,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1",
+    "headings": [
+      "ReactJS Style Guide"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "knowledge base",
+      "component formatting",
+      "ruleset",
+      "wrapping components",
+      "prop spacing",
+      "code organization",
+      "organization outline",
+      "file structure and hooks",
+      "aggregate hooks",
+      "file structure options"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:ReactJS-Style-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 199857,
+    "length": 8412,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "ReactJS Style Guide",
+      "Component Formatting"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "knowledge base",
+      "component formatting"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:ReactJS-Style-Guide.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 208269,
+    "length": 9023,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.1.1",
+    "headings": [
+      "ReactJS Style Guide",
+      "Component Formatting",
+      "Wrapping Components"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "component formatting",
+      "wrapping components"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 217292,
+    "length": 9229,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.1.2",
+    "headings": [
+      "ReactJS Style Guide",
+      "Component Formatting",
+      "Prop Spacing"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "component formatting",
+      "prop spacing"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 226521,
+    "length": 8425,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "ReactJS Style Guide",
+      "Code Organization"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "code organization"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 234946,
+    "length": 9221,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.2.1",
+    "headings": [
+      "ReactJS Style Guide",
+      "Code Organization",
+      "Organization Outline"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "code organization",
+      "organization outline"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 244167,
+    "length": 8428,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "ReactJS Style Guide",
+      "File Structure and Hooks"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "file structure and hooks"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 252595,
+    "length": 9415,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.3.1",
+    "headings": [
+      "ReactJS Style Guide",
+      "File Structure and Hooks",
+      "Aggregate Hooks"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "file structure and hooks",
+      "aggregate hooks"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:ReactJS-Style-Guide.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 262010,
+    "length": 8765,
+    "topic": "coding",
+    "document": "ReactJS-Style-Guide.md",
+    "section": "1.3.2",
+    "headings": [
+      "ReactJS Style Guide",
+      "File Structure and Hooks",
+      "File Structure Options"
+    ],
+    "tags": [
+      "coding",
+      "reactjs style guide",
+      "ruleset",
+      "file structure and hooks",
+      "file structure options"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 270775,
+    "length": 8977,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1",
+    "headings": [
+      "TypeScript Style Guide"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "knowledge base",
+      "formatting and syntax standards",
+      "ruleset",
+      "indentation and spacing",
+      "semicolons and quotes",
+      "braces and blank lines",
+      "trailing commas and lists",
+      "import and export rules",
+      "import organization",
+      "export formatting",
+      "type and class definitions",
+      "object types",
+      "interfaces vs types",
+      "generics and annotations",
+      "built in types usage",
+      "function and method typing",
+      "control flow and naming conventions",
+      "delegation",
+      "naming standards",
+      "documentation",
+      "error handling and runtime practices",
+      "error throwing",
+      "runtime and testing"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:Typescript-Style-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 279752,
+    "length": 8464,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "TypeScript Style Guide",
+      "Formatting and Syntax Standards"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "knowledge base",
+      "formatting and syntax standards"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "coding:Typescript-Style-Guide.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 288216,
+    "length": 8909,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.1.1",
+    "headings": [
+      "TypeScript Style Guide",
+      "Formatting and Syntax Standards",
+      "Indentation and Spacing"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "formatting and syntax standards",
+      "indentation and spacing"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 297125,
+    "length": 8773,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.1.2",
+    "headings": [
+      "TypeScript Style Guide",
+      "Formatting and Syntax Standards",
+      "Semicolons and Quotes"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "formatting and syntax standards",
+      "semicolons and quotes"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 305898,
+    "length": 8863,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.1.3",
+    "headings": [
+      "TypeScript Style Guide",
+      "Formatting and Syntax Standards",
+      "Braces and Blank Lines"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "formatting and syntax standards",
+      "braces and blank lines"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 314761,
+    "length": 8622,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.1.4",
+    "headings": [
+      "TypeScript Style Guide",
+      "Formatting and Syntax Standards",
+      "Trailing Commas and Lists"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "formatting and syntax standards",
+      "trailing commas and lists"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 323383,
+    "length": 8417,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "TypeScript Style Guide",
+      "Import and Export Rules"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "import and export rules"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 331800,
+    "length": 9140,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.2.1",
+    "headings": [
+      "TypeScript Style Guide",
+      "Import and Export Rules",
+      "Import Organization"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "import and export rules",
+      "import organization"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.2.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 340940,
+    "length": 8813,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.2.2",
+    "headings": [
+      "TypeScript Style Guide",
+      "Import and Export Rules",
+      "Export Formatting"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "import and export rules",
+      "export formatting"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 349753,
+    "length": 8423,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "TypeScript Style Guide",
+      "Type and Class Definitions"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "type and class definitions"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 358176,
+    "length": 8766,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.3.1",
+    "headings": [
+      "TypeScript Style Guide",
+      "Type and Class Definitions",
+      "Object Types"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "type and class definitions",
+      "object types"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 366942,
+    "length": 8680,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.3.2",
+    "headings": [
+      "TypeScript Style Guide",
+      "Type and Class Definitions",
+      "Interfaces vs Types"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "type and class definitions",
+      "interfaces vs types"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.3.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 375622,
+    "length": 8714,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.3.3",
+    "headings": [
+      "TypeScript Style Guide",
+      "Type and Class Definitions",
+      "Generics and Annotations"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "type and class definitions",
+      "generics and annotations"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.3.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 384336,
+    "length": 8630,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.3.4",
+    "headings": [
+      "TypeScript Style Guide",
+      "Type and Class Definitions",
+      "Built-in Types Usage"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "type and class definitions",
+      "built in types usage"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.3.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 392966,
+    "length": 8697,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.3.5",
+    "headings": [
+      "TypeScript Style Guide",
+      "Type and Class Definitions",
+      "Function and Method Typing"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "type and class definitions",
+      "function and method typing"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 401663,
+    "length": 8441,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.4",
+    "headings": [
+      "TypeScript Style Guide",
+      "Control Flow and Naming Conventions"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "control flow and naming conventions"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.4.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 410104,
+    "length": 8584,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.4.1",
+    "headings": [
+      "TypeScript Style Guide",
+      "Control Flow and Naming Conventions",
+      "Delegation"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "control flow and naming conventions",
+      "delegation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.4.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 418688,
+    "length": 8644,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.4.2",
+    "headings": [
+      "TypeScript Style Guide",
+      "Control Flow and Naming Conventions",
+      "Naming Standards"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "control flow and naming conventions",
+      "naming standards"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.4.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 427332,
+    "length": 8554,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.4.3",
+    "headings": [
+      "TypeScript Style Guide",
+      "Control Flow and Naming Conventions",
+      "Documentation"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "control flow and naming conventions",
+      "documentation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 435886,
+    "length": 8433,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.5",
+    "headings": [
+      "TypeScript Style Guide",
+      "Error Handling and Runtime Practices"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "error handling and runtime practices"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.5.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 444319,
+    "length": 8610,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.5.1",
+    "headings": [
+      "TypeScript Style Guide",
+      "Error Handling and Runtime Practices",
+      "Error Throwing"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "error handling and runtime practices",
+      "error throwing"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "coding:Typescript-Style-Guide.md#1.5.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/coding.jsonl",
+    "offset": 452929,
+    "length": 8710,
+    "topic": "coding",
+    "document": "Typescript-Style-Guide.md",
+    "section": "1.5.2",
+    "headings": [
+      "TypeScript Style Guide",
+      "Error Handling and Runtime Practices",
+      "Runtime and Testing"
+    ],
+    "tags": [
+      "coding",
+      "typescript style guide",
+      "ruleset",
+      "error handling and runtime practices",
+      "runtime and testing"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 0,
+    "length": 8956,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1",
+    "headings": [
+      "AI Documentation Conversion Guide"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "conversion overview",
+      "ruleset",
+      "conversion goals",
+      "input analysis",
+      "pre conversion analysis",
+      "document type classification",
+      "content inventory",
+      "gap analysis",
+      "structure transformation",
+      "title and description conversion",
+      "outline numbering implementation",
+      "table of contents generation",
+      "content reorganization",
+      "section description addition",
+      "content consolidation",
+      "document block separation",
+      "api documentation conversion",
+      "class documentation structure",
+      "method documentation conversion",
+      "property documentation conversion",
+      "formatting standardization",
+      "code block conversion",
+      "original",
+      "converted",
+      "user management",
+      "creating users",
+      "user properties",
+      "deleting users"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 8956,
+    "length": 8549,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Conversion Overview"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "conversion overview"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 17505,
+    "length": 8899,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.1.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Conversion Overview",
+      "Conversion Goals"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "ruleset",
+      "conversion overview",
+      "conversion goals"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 26404,
+    "length": 8882,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.1.2",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Conversion Overview",
+      "Input Analysis"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "conversion overview",
+      "input analysis"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 35286,
+    "length": 8474,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Pre-Conversion Analysis"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "pre conversion analysis"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 43760,
+    "length": 9017,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.2.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Pre-Conversion Analysis",
+      "Document Type Classification"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "pre conversion analysis",
+      "document type classification"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.2.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 52777,
+    "length": 8798,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.2.2",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Pre-Conversion Analysis",
+      "Content Inventory"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "pre conversion analysis",
+      "content inventory"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.2.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 61575,
+    "length": 8800,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.2.3",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Pre-Conversion Analysis",
+      "Gap Analysis"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "pre conversion analysis",
+      "gap analysis"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 70375,
+    "length": 8510,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Structure Transformation"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "structure transformation"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 78885,
+    "length": 9107,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.3.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Structure Transformation",
+      "Title and Description Conversion"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "structure transformation",
+      "title and description conversion"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 87992,
+    "length": 9066,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.3.2",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Structure Transformation",
+      "Outline Numbering Implementation"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "structure transformation",
+      "outline numbering implementation"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.3.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 97058,
+    "length": 8898,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.3.3",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Structure Transformation",
+      "Table of Contents Generation"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "structure transformation",
+      "table of contents generation"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 105956,
+    "length": 8466,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.4",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Content Reorganization"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "content reorganization"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.4.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 114422,
+    "length": 9180,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.4.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Content Reorganization",
+      "Section Description Addition"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "ruleset",
+      "content reorganization",
+      "section description addition"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.4.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 123602,
+    "length": 8787,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.4.2",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Content Reorganization",
+      "Content Consolidation"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "content reorganization",
+      "content consolidation"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.4.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 132389,
+    "length": 8707,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.4.3",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Content Reorganization",
+      "Document Block Separation"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "content reorganization",
+      "document block separation"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 141096,
+    "length": 8485,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.5",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "API Documentation Conversion"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "api documentation conversion"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.5.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 149581,
+    "length": 9109,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.5.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "API Documentation Conversion",
+      "Class Documentation Structure"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "api documentation conversion",
+      "class documentation structure"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.5.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 158690,
+    "length": 9269,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.5.2",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "API Documentation Conversion",
+      "Method Documentation Conversion"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "api documentation conversion",
+      "method documentation conversion"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.5.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 167959,
+    "length": 9021,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.5.3",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "API Documentation Conversion",
+      "Property Documentation Conversion"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "api documentation conversion",
+      "property documentation conversion"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.6": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 176980,
+    "length": 8486,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.6",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Formatting Standardization"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "formatting standardization"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#1.6.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 185466,
+    "length": 8802,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "1.6.1",
+    "headings": [
+      "AI Documentation Conversion Guide",
+      "Formatting Standardization",
+      "Code Block Conversion"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "formatting standardization",
+      "code block conversion"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 194268,
+    "length": 8390,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "2",
+    "headings": [
+      "Original"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "original"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 202658,
+    "length": 8753,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "3",
+    "headings": [
+      "Converted"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "converted"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 211411,
+    "length": 8372,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "4",
+    "headings": [
+      "Original"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "original"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 219783,
+    "length": 11007,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "5",
+    "headings": [
+      "Converted"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "converted"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#6": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 230790,
+    "length": 8406,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "6",
+    "headings": [
+      "User Management"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#6.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 239196,
+    "length": 8457,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "6.1",
+    "headings": [
+      "User Management",
+      "Creating Users"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management",
+      "creating users"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#6.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 247653,
+    "length": 8423,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "6.2",
+    "headings": [
+      "User Management",
+      "User Properties"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management",
+      "user properties"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#6.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 256076,
+    "length": 8452,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "6.3",
+    "headings": [
+      "User Management",
+      "Deleting Users"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management",
+      "deleting users"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#7": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 264528,
+    "length": 8722,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "7",
+    "headings": [
+      "User Management"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#7.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 273250,
+    "length": 8792,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "7.1",
+    "headings": [
+      "User Management",
+      "Creating Users"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management",
+      "creating users"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#7.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 282042,
+    "length": 8708,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "7.2",
+    "headings": [
+      "User Management",
+      "User Properties"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management",
+      "user properties"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:AI-Documentation-Conversion-Guide.md#7.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 290750,
+    "length": 9202,
+    "topic": "documenting",
+    "document": "AI-Documentation-Conversion-Guide.md",
+    "section": "7.3",
+    "headings": [
+      "User Management",
+      "Deleting Users"
+    ],
+    "tags": [
+      "documenting",
+      "ai documentation conversion guide",
+      "knowledge base",
+      "user management",
+      "deleting users"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 299952,
+    "length": 8551,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1",
+    "headings": [
+      "API Documentation Style Guide"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "file organization",
+      "class documentation structure",
+      "method documentation standards",
+      "parameter tables",
+      "return value documentation",
+      "code examples",
+      "type safety documentation",
+      "cross references and integration",
+      "consistency requirements",
+      "accessibility and usability",
+      "maintenance and updates",
+      "quality validation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 308503,
+    "length": 8853,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "API Documentation Style Guide",
+      "File Organization"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "file organization"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 317356,
+    "length": 10226,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "API Documentation Style Guide",
+      "Class Documentation Structure"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "class documentation structure"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 327582,
+    "length": 9557,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "API Documentation Style Guide",
+      "Method Documentation Standards"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "method documentation standards"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 337139,
+    "length": 9224,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.4",
+    "headings": [
+      "API Documentation Style Guide",
+      "Parameter Tables"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "parameter tables"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 346363,
+    "length": 9035,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.5",
+    "headings": [
+      "API Documentation Style Guide",
+      "Return Value Documentation"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "return value documentation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.6": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 355398,
+    "length": 9550,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.6",
+    "headings": [
+      "API Documentation Style Guide",
+      "Code Examples"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "code examples"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.7": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 364948,
+    "length": 9210,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.7",
+    "headings": [
+      "API Documentation Style Guide",
+      "Type Safety Documentation"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "type safety documentation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.8": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 374158,
+    "length": 8997,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.8",
+    "headings": [
+      "API Documentation Style Guide",
+      "Cross-References and Integration"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "cross references and integration"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.9": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 383155,
+    "length": 8960,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.9",
+    "headings": [
+      "API Documentation Style Guide",
+      "Consistency Requirements"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "consistency requirements"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.10": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 392115,
+    "length": 8824,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.10",
+    "headings": [
+      "API Documentation Style Guide",
+      "Accessibility and Usability"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "accessibility and usability"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.11": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 400939,
+    "length": 8811,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.11",
+    "headings": [
+      "API Documentation Style Guide",
+      "Maintenance and Updates"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "maintenance and updates"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:API-Documentation-Style-Guide.md#1.12": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 409750,
+    "length": 8846,
+    "topic": "documenting",
+    "document": "API-Documentation-Style-Guide.md",
+    "section": "1.12",
+    "headings": [
+      "API Documentation Style Guide",
+      "Quality Validation"
+    ],
+    "tags": [
+      "documenting",
+      "api documentation style guide",
+      "ruleset",
+      "quality validation"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 418596,
+    "length": 8992,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1",
+    "headings": [
+      "Markdown Documentation Guidelines"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "knowledge base",
+      "markdown documentation guidelines",
+      "document structure requirements",
+      "ruleset",
+      "title and description",
+      "table of contents",
+      "main subjects",
+      "outline numbering system",
+      "content organization",
+      "section descriptions",
+      "the at least two rule",
+      "document blocks",
+      "formatting standards",
+      "lists",
+      "code blocks",
+      "bash example"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:Documentation-Style-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 427588,
+    "length": 8517,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Document Structure Requirements"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "knowledge base",
+      "markdown documentation guidelines",
+      "document structure requirements"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:Documentation-Style-Guide.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 436105,
+    "length": 9093,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.1.1",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Document Structure Requirements",
+      "Title and Description"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "document structure requirements",
+      "title and description"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 445198,
+    "length": 8987,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.1.2",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Document Structure Requirements",
+      "Table of Contents"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "document structure requirements",
+      "table of contents"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 454185,
+    "length": 9205,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.1.3",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Document Structure Requirements",
+      "Main Subjects"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "document structure requirements",
+      "main subjects"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 463390,
+    "length": 9145,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.1.4",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Document Structure Requirements",
+      "Outline Numbering System"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "document structure requirements",
+      "outline numbering system"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 472535,
+    "length": 8473,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Content Organization"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "knowledge base",
+      "markdown documentation guidelines",
+      "content organization"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:Documentation-Style-Guide.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 481008,
+    "length": 8811,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.2.1",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Content Organization",
+      "Section Descriptions"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "content organization",
+      "section descriptions"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.2.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 489819,
+    "length": 8750,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.2.2",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Content Organization",
+      "The \"At Least Two\" Rule"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "content organization",
+      "the at least two rule"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.2.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 498569,
+    "length": 8996,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.2.3",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Content Organization",
+      "Document Blocks"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "content organization",
+      "document blocks"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 507565,
+    "length": 8466,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Formatting Standards"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "knowledge base",
+      "markdown documentation guidelines",
+      "formatting standards"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "documenting:Documentation-Style-Guide.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 516031,
+    "length": 9151,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.3.1",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Formatting Standards",
+      "Lists"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "formatting standards",
+      "lists"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 525182,
+    "length": 10204,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "1.3.2",
+    "headings": [
+      "Markdown Documentation Guidelines",
+      "Formatting Standards",
+      "Code Blocks"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "markdown documentation guidelines",
+      "formatting standards",
+      "code blocks"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "documenting:Documentation-Style-Guide.md#2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/documenting.jsonl",
+    "offset": 535386,
+    "length": 13641,
+    "topic": "documenting",
+    "document": "Documentation-Style-Guide.md",
+    "section": "2",
+    "headings": [
+      "Bash example"
+    ],
+    "tags": [
+      "documenting",
+      "documentation style guide",
+      "ruleset",
+      "bash example"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 0,
+    "length": 8954,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1",
+    "headings": [
+      "Mocha Chai Testing Style Guide"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "knowledge base",
+      "mocha chai testing style guide",
+      "general testing principles",
+      "ruleset",
+      "behavior focus",
+      "test characteristics",
+      "test structure and execution",
+      "async handling",
+      "suite organization",
+      "isolation and determinism",
+      "sandbox management",
+      "time and randomness control",
+      "type safety and fixtures",
+      "type handling",
+      "fixtures",
+      "common pitfalls and solutions",
+      "bad practices avoidance",
+      "configuration and setup"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 8954,
+    "length": 8481,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "General Testing Principles"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "knowledge base",
+      "mocha chai testing style guide",
+      "general testing principles"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 17435,
+    "length": 9093,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.1.1",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "General Testing Principles",
+      "Behavior Focus"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "general testing principles",
+      "behavior focus"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 26528,
+    "length": 8771,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.1.2",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "General Testing Principles",
+      "Test Characteristics"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "general testing principles",
+      "test characteristics"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 35299,
+    "length": 8476,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Test Structure and Execution"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "test structure and execution"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 43775,
+    "length": 9015,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.2.1",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Test Structure and Execution",
+      "Async Handling"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "test structure and execution",
+      "async handling"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.2.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 52790,
+    "length": 8768,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.2.2",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Test Structure and Execution",
+      "Suite Organization"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "test structure and execution",
+      "suite organization"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 61558,
+    "length": 8477,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Isolation and Determinism"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "isolation and determinism"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 70035,
+    "length": 9022,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.3.1",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Isolation and Determinism",
+      "Sandbox Management"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "isolation and determinism",
+      "sandbox management"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 79057,
+    "length": 9041,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.3.2",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Isolation and Determinism",
+      "Time and Randomness Control"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "isolation and determinism",
+      "time and randomness control"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 88098,
+    "length": 8456,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.4",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Type Safety and Fixtures"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "type safety and fixtures"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.4.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 96554,
+    "length": 9242,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.4.1",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Type Safety and Fixtures",
+      "Type Handling"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "type safety and fixtures",
+      "type handling"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.4.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 105796,
+    "length": 9039,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.4.2",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Type Safety and Fixtures",
+      "Fixtures"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "type safety and fixtures",
+      "fixtures"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 114835,
+    "length": 8437,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.5",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Common Pitfalls and Solutions"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "knowledge base",
+      "mocha chai testing style guide",
+      "common pitfalls and solutions"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.5.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 123272,
+    "length": 8726,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.5.1",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Common Pitfalls and Solutions",
+      "Bad Practices Avoidance"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "common pitfalls and solutions",
+      "bad practices avoidance"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Chai-Testing-Style-Guide.md#1.5.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 131998,
+    "length": 8759,
+    "topic": "testing",
+    "document": "Chai-Testing-Style-Guide.md",
+    "section": "1.5.2",
+    "headings": [
+      "Mocha Chai Testing Style Guide",
+      "Common Pitfalls and Solutions",
+      "Configuration and Setup"
+    ],
+    "tags": [
+      "testing",
+      "chai testing style guide",
+      "ruleset",
+      "mocha chai testing style guide",
+      "common pitfalls and solutions",
+      "configuration and setup"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 140757,
+    "length": 8947,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1",
+    "headings": [
+      "Jest Testing Style Guide"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "knowledge base",
+      "general testing principles",
+      "ruleset",
+      "behavior focus",
+      "test characteristics",
+      "test organization and execution",
+      "naming and descriptions",
+      "isolation and cleanup",
+      "asynchrony handling",
+      "type safety and fixtures",
+      "type usage",
+      "fixtures and data",
+      "react specific guidelines",
+      "testing approach",
+      "interactions and effects",
+      "common issues and solutions",
+      "bad practices avoidance",
+      "configuration and ci"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 149704,
+    "length": 8438,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.1",
+    "headings": [
+      "Jest Testing Style Guide",
+      "General Testing Principles"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "knowledge base",
+      "general testing principles"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 158142,
+    "length": 8657,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.1.1",
+    "headings": [
+      "Jest Testing Style Guide",
+      "General Testing Principles",
+      "Behavior Focus"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "general testing principles",
+      "behavior focus"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 166799,
+    "length": 8743,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.1.2",
+    "headings": [
+      "Jest Testing Style Guide",
+      "General Testing Principles",
+      "Test Characteristics"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "general testing principles",
+      "test characteristics"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 175542,
+    "length": 8467,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.2",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Test Organization and Execution"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "test organization and execution"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.2.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 184009,
+    "length": 8776,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.2.1",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Test Organization and Execution",
+      "Naming and Descriptions"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "test organization and execution",
+      "naming and descriptions"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.2.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 192785,
+    "length": 8745,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.2.2",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Test Organization and Execution",
+      "Isolation and Cleanup"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "test organization and execution",
+      "isolation and cleanup"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.2.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 201530,
+    "length": 8782,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.2.3",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Test Organization and Execution",
+      "Asynchrony Handling"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "test organization and execution",
+      "asynchrony handling"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 210312,
+    "length": 8421,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.3",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Type Safety and Fixtures"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "type safety and fixtures"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.3.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 218733,
+    "length": 8852,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.3.1",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Type Safety and Fixtures",
+      "Type Usage"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "type safety and fixtures",
+      "type usage"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.3.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 227585,
+    "length": 8806,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.3.2",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Type Safety and Fixtures",
+      "Fixtures and Data"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "type safety and fixtures",
+      "fixtures and data"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.4": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 236391,
+    "length": 8424,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.4",
+    "headings": [
+      "Jest Testing Style Guide",
+      "React-Specific Guidelines"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "react specific guidelines"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.4.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 244815,
+    "length": 8871,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.4.1",
+    "headings": [
+      "Jest Testing Style Guide",
+      "React-Specific Guidelines",
+      "Testing Approach"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "react specific guidelines",
+      "testing approach"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.4.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 253686,
+    "length": 8793,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.4.2",
+    "headings": [
+      "Jest Testing Style Guide",
+      "React-Specific Guidelines",
+      "Interactions and Effects"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "react specific guidelines",
+      "interactions and effects"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.5": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 262479,
+    "length": 8440,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.5",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Common Issues and Solutions"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "knowledge base",
+      "common issues and solutions"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.5.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 270919,
+    "length": 8709,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.5.1",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Common Issues and Solutions",
+      "Bad Practices Avoidance"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "common issues and solutions",
+      "bad practices avoidance"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "testing:Jest-Testing-Style-Guide.md#1.5.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/testing.jsonl",
+    "offset": 279628,
+    "length": 8685,
+    "topic": "testing",
+    "document": "Jest-Testing-Style-Guide.md",
+    "section": "1.5.2",
+    "headings": [
+      "Jest Testing Style Guide",
+      "Common Issues and Solutions",
+      "Configuration and CI"
+    ],
+    "tags": [
+      "testing",
+      "jest testing style guide",
+      "ruleset",
+      "common issues and solutions",
+      "configuration and ci"
+    ],
+    "rank": 10,
+    "corpus": "ruleset"
+  },
+  "fixtures:Sample-Document-1.md#1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/fixtures.jsonl",
+    "offset": 0,
+    "length": 8318,
+    "topic": "fixtures",
+    "document": "Sample-Document-1.md",
+    "section": "1",
+    "headings": [
+      "Sample Document 1"
+    ],
+    "tags": [
+      "fixtures",
+      "sample document 1",
+      "knowledge base",
+      "getting information",
+      "fetching information"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "fixtures:Sample-Document-1.md#1.1": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/fixtures.jsonl",
+    "offset": 8318,
+    "length": 8372,
+    "topic": "fixtures",
+    "document": "Sample-Document-1.md",
+    "section": "1.1",
+    "headings": [
+      "Sample Document 1",
+      "Getting Information"
+    ],
+    "tags": [
+      "fixtures",
+      "sample document 1",
+      "knowledge base",
+      "getting information"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "fixtures:Sample-Document-1.md#1.2": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/fixtures.jsonl",
+    "offset": 16690,
+    "length": 8353,
+    "topic": "fixtures",
+    "document": "Sample-Document-1.md",
+    "section": "1.2",
+    "headings": [
+      "Sample Document 1",
+      "Fetching Information"
+    ],
+    "tags": [
+      "fixtures",
+      "sample document 1",
+      "knowledge base",
+      "fetching information"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  },
+  "fixtures:Sample-Document-1.md#1.3": {
+    "database": "/Users/cblanquera/server/projects/cblanquera/mcp.md/mcp.md/tests/workspace/database/fixtures.jsonl",
+    "offset": 25043,
+    "length": 8382,
+    "topic": "fixtures",
+    "document": "Sample-Document-1.md",
+    "section": "1.3",
+    "headings": [
+      "Sample Document 1",
+      "Getting Information"
+    ],
+    "tags": [
+      "fixtures",
+      "sample document 1",
+      "knowledge base",
+      "getting information"
+    ],
+    "rank": 10,
+    "corpus": "knowledge"
+  }
+}

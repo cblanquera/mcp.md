@@ -10,7 +10,8 @@
     "example": "yarn --cwd example",
     "report": "yarn report:env nyc yarn test && nyc report -r lcov",
     "report:env": "NODE_OPTIONS=\"--disable-warning=ExperimentalWarning --experimental-loader @istanbuljs/esm-loader-hook\"",
-    "test": "yarn --cwd mcp.md test"
+    "test": "yarn --cwd mcp.md test",
+    "test:ingest": "yarn --cwd mcp.md test:ingest"
   },
   "devDependencies": {
     "@istanbuljs/esm-loader-hook": "0.3.0",

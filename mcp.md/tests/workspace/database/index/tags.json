@@ -1,0 +1,1024 @@
+{
+  "coding": [
+    "coding:Coding-Standards.md#1",
+    "coding:Coding-Standards.md#1.1",
+    "coding:Coding-Standards.md#1.1.1",
+    "coding:Coding-Standards.md#1.1.2",
+    "coding:Coding-Standards.md#1.2",
+    "coding:Coding-Standards.md#1.2.1",
+    "coding:Coding-Standards.md#1.2.2",
+    "coding:Coding-Standards.md#1.2.3",
+    "coding:Coding-Standards.md#1.2.4",
+    "coding:Coding-Standards.md#1.2.5",
+    "coding:Coding-Standards.md#1.3",
+    "coding:Coding-Standards.md#1.3.1",
+    "coding:Coding-Standards.md#1.3.2",
+    "coding:Coding-Standards.md#1.4",
+    "coding:Coding-Standards.md#1.4.1",
+    "coding:Coding-Standards.md#1.4.2",
+    "coding:Coding-Standards.md#1.4.3",
+    "coding:Coding-Standards.md#1.4.4",
+    "coding:Coding-Standards.md#1.5",
+    "coding:Coding-Standards.md#1.5.1",
+    "coding:Coding-Standards.md#1.5.2",
+    "coding:Coding-Standards.md#1.5.3",
+    "coding:ReactJS-Style-Guide.md#1",
+    "coding:ReactJS-Style-Guide.md#1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.2",
+    "coding:ReactJS-Style-Guide.md#1.2",
+    "coding:ReactJS-Style-Guide.md#1.2.1",
+    "coding:ReactJS-Style-Guide.md#1.3",
+    "coding:ReactJS-Style-Guide.md#1.3.1",
+    "coding:ReactJS-Style-Guide.md#1.3.2",
+    "coding:Typescript-Style-Guide.md#1",
+    "coding:Typescript-Style-Guide.md#1.1",
+    "coding:Typescript-Style-Guide.md#1.1.1",
+    "coding:Typescript-Style-Guide.md#1.1.2",
+    "coding:Typescript-Style-Guide.md#1.1.3",
+    "coding:Typescript-Style-Guide.md#1.1.4",
+    "coding:Typescript-Style-Guide.md#1.2",
+    "coding:Typescript-Style-Guide.md#1.2.1",
+    "coding:Typescript-Style-Guide.md#1.2.2",
+    "coding:Typescript-Style-Guide.md#1.3",
+    "coding:Typescript-Style-Guide.md#1.3.1",
+    "coding:Typescript-Style-Guide.md#1.3.2",
+    "coding:Typescript-Style-Guide.md#1.3.3",
+    "coding:Typescript-Style-Guide.md#1.3.4",
+    "coding:Typescript-Style-Guide.md#1.3.5",
+    "coding:Typescript-Style-Guide.md#1.4",
+    "coding:Typescript-Style-Guide.md#1.4.1",
+    "coding:Typescript-Style-Guide.md#1.4.2",
+    "coding:Typescript-Style-Guide.md#1.4.3",
+    "coding:Typescript-Style-Guide.md#1.5",
+    "coding:Typescript-Style-Guide.md#1.5.1",
+    "coding:Typescript-Style-Guide.md#1.5.2"
+  ],
+  "coding standards": [
+    "coding:Coding-Standards.md#1",
+    "coding:Coding-Standards.md#1.1",
+    "coding:Coding-Standards.md#1.1.1",
+    "coding:Coding-Standards.md#1.1.2",
+    "coding:Coding-Standards.md#1.2",
+    "coding:Coding-Standards.md#1.2.1",
+    "coding:Coding-Standards.md#1.2.2",
+    "coding:Coding-Standards.md#1.2.3",
+    "coding:Coding-Standards.md#1.2.4",
+    "coding:Coding-Standards.md#1.2.5",
+    "coding:Coding-Standards.md#1.3",
+    "coding:Coding-Standards.md#1.3.1",
+    "coding:Coding-Standards.md#1.3.2",
+    "coding:Coding-Standards.md#1.4",
+    "coding:Coding-Standards.md#1.4.1",
+    "coding:Coding-Standards.md#1.4.2",
+    "coding:Coding-Standards.md#1.4.3",
+    "coding:Coding-Standards.md#1.4.4",
+    "coding:Coding-Standards.md#1.5",
+    "coding:Coding-Standards.md#1.5.1",
+    "coding:Coding-Standards.md#1.5.2",
+    "coding:Coding-Standards.md#1.5.3"
+  ],
+  "knowledge base": [
+    "coding:Coding-Standards.md#1",
+    "coding:Coding-Standards.md#1.1",
+    "coding:Coding-Standards.md#1.2",
+    "coding:Coding-Standards.md#1.5",
+    "coding:ReactJS-Style-Guide.md#1",
+    "coding:ReactJS-Style-Guide.md#1.1",
+    "coding:Typescript-Style-Guide.md#1",
+    "coding:Typescript-Style-Guide.md#1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#2",
+    "documenting:AI-Documentation-Conversion-Guide.md#3",
+    "documenting:AI-Documentation-Conversion-Guide.md#4",
+    "documenting:AI-Documentation-Conversion-Guide.md#5",
+    "documenting:AI-Documentation-Conversion-Guide.md#6",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#7",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.3",
+    "documenting:Documentation-Style-Guide.md#1",
+    "documenting:Documentation-Style-Guide.md#1.1",
+    "documenting:Documentation-Style-Guide.md#1.2",
+    "documenting:Documentation-Style-Guide.md#1.3",
+    "testing:Chai-Testing-Style-Guide.md#1",
+    "testing:Chai-Testing-Style-Guide.md#1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.5",
+    "testing:Jest-Testing-Style-Guide.md#1",
+    "testing:Jest-Testing-Style-Guide.md#1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.5",
+    "fixtures:Sample-Document-1.md#1",
+    "fixtures:Sample-Document-1.md#1.1",
+    "fixtures:Sample-Document-1.md#1.2",
+    "fixtures:Sample-Document-1.md#1.3"
+  ],
+  "coding standards style guide": [
+    "coding:Coding-Standards.md#1",
+    "coding:Coding-Standards.md#1.1",
+    "coding:Coding-Standards.md#1.1.1",
+    "coding:Coding-Standards.md#1.1.2",
+    "coding:Coding-Standards.md#1.2",
+    "coding:Coding-Standards.md#1.2.1",
+    "coding:Coding-Standards.md#1.2.2",
+    "coding:Coding-Standards.md#1.2.3",
+    "coding:Coding-Standards.md#1.2.4",
+    "coding:Coding-Standards.md#1.2.5",
+    "coding:Coding-Standards.md#1.3",
+    "coding:Coding-Standards.md#1.3.1",
+    "coding:Coding-Standards.md#1.3.2",
+    "coding:Coding-Standards.md#1.4",
+    "coding:Coding-Standards.md#1.4.1",
+    "coding:Coding-Standards.md#1.4.2",
+    "coding:Coding-Standards.md#1.4.3",
+    "coding:Coding-Standards.md#1.4.4",
+    "coding:Coding-Standards.md#1.5",
+    "coding:Coding-Standards.md#1.5.1",
+    "coding:Coding-Standards.md#1.5.2",
+    "coding:Coding-Standards.md#1.5.3"
+  ],
+  "general principles": [
+    "coding:Coding-Standards.md#1.1",
+    "coding:Coding-Standards.md#1.1.1",
+    "coding:Coding-Standards.md#1.1.2"
+  ],
+  "ruleset": [
+    "coding:Coding-Standards.md#1.1.1",
+    "coding:Coding-Standards.md#1.1.2",
+    "coding:Coding-Standards.md#1.2.1",
+    "coding:Coding-Standards.md#1.2.2",
+    "coding:Coding-Standards.md#1.2.3",
+    "coding:Coding-Standards.md#1.2.4",
+    "coding:Coding-Standards.md#1.2.5",
+    "coding:Coding-Standards.md#1.3",
+    "coding:Coding-Standards.md#1.3.1",
+    "coding:Coding-Standards.md#1.3.2",
+    "coding:Coding-Standards.md#1.4",
+    "coding:Coding-Standards.md#1.4.1",
+    "coding:Coding-Standards.md#1.4.2",
+    "coding:Coding-Standards.md#1.4.3",
+    "coding:Coding-Standards.md#1.4.4",
+    "coding:Coding-Standards.md#1.5.1",
+    "coding:Coding-Standards.md#1.5.2",
+    "coding:Coding-Standards.md#1.5.3",
+    "coding:ReactJS-Style-Guide.md#1.1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.2",
+    "coding:ReactJS-Style-Guide.md#1.2",
+    "coding:ReactJS-Style-Guide.md#1.2.1",
+    "coding:ReactJS-Style-Guide.md#1.3",
+    "coding:ReactJS-Style-Guide.md#1.3.1",
+    "coding:ReactJS-Style-Guide.md#1.3.2",
+    "coding:Typescript-Style-Guide.md#1.1.1",
+    "coding:Typescript-Style-Guide.md#1.1.2",
+    "coding:Typescript-Style-Guide.md#1.1.3",
+    "coding:Typescript-Style-Guide.md#1.1.4",
+    "coding:Typescript-Style-Guide.md#1.2",
+    "coding:Typescript-Style-Guide.md#1.2.1",
+    "coding:Typescript-Style-Guide.md#1.2.2",
+    "coding:Typescript-Style-Guide.md#1.3",
+    "coding:Typescript-Style-Guide.md#1.3.1",
+    "coding:Typescript-Style-Guide.md#1.3.2",
+    "coding:Typescript-Style-Guide.md#1.3.3",
+    "coding:Typescript-Style-Guide.md#1.3.4",
+    "coding:Typescript-Style-Guide.md#1.3.5",
+    "coding:Typescript-Style-Guide.md#1.4",
+    "coding:Typescript-Style-Guide.md#1.4.1",
+    "coding:Typescript-Style-Guide.md#1.4.2",
+    "coding:Typescript-Style-Guide.md#1.4.3",
+    "coding:Typescript-Style-Guide.md#1.5",
+    "coding:Typescript-Style-Guide.md#1.5.1",
+    "coding:Typescript-Style-Guide.md#1.5.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.1",
+    "documenting:API-Documentation-Style-Guide.md#1",
+    "documenting:API-Documentation-Style-Guide.md#1.1",
+    "documenting:API-Documentation-Style-Guide.md#1.2",
+    "documenting:API-Documentation-Style-Guide.md#1.3",
+    "documenting:API-Documentation-Style-Guide.md#1.4",
+    "documenting:API-Documentation-Style-Guide.md#1.5",
+    "documenting:API-Documentation-Style-Guide.md#1.6",
+    "documenting:API-Documentation-Style-Guide.md#1.7",
+    "documenting:API-Documentation-Style-Guide.md#1.8",
+    "documenting:API-Documentation-Style-Guide.md#1.9",
+    "documenting:API-Documentation-Style-Guide.md#1.10",
+    "documenting:API-Documentation-Style-Guide.md#1.11",
+    "documenting:API-Documentation-Style-Guide.md#1.12",
+    "documenting:Documentation-Style-Guide.md#1.1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.2",
+    "documenting:Documentation-Style-Guide.md#1.1.3",
+    "documenting:Documentation-Style-Guide.md#1.1.4",
+    "documenting:Documentation-Style-Guide.md#1.2.1",
+    "documenting:Documentation-Style-Guide.md#1.2.2",
+    "documenting:Documentation-Style-Guide.md#1.2.3",
+    "documenting:Documentation-Style-Guide.md#1.3.1",
+    "documenting:Documentation-Style-Guide.md#1.3.2",
+    "documenting:Documentation-Style-Guide.md#2",
+    "testing:Chai-Testing-Style-Guide.md#1.1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2.1",
+    "testing:Chai-Testing-Style-Guide.md#1.2.2",
+    "testing:Chai-Testing-Style-Guide.md#1.3",
+    "testing:Chai-Testing-Style-Guide.md#1.3.1",
+    "testing:Chai-Testing-Style-Guide.md#1.3.2",
+    "testing:Chai-Testing-Style-Guide.md#1.4",
+    "testing:Chai-Testing-Style-Guide.md#1.4.1",
+    "testing:Chai-Testing-Style-Guide.md#1.4.2",
+    "testing:Chai-Testing-Style-Guide.md#1.5.1",
+    "testing:Chai-Testing-Style-Guide.md#1.5.2",
+    "testing:Jest-Testing-Style-Guide.md#1.1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.1",
+    "testing:Jest-Testing-Style-Guide.md#1.2.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3.1",
+    "testing:Jest-Testing-Style-Guide.md#1.3.2",
+    "testing:Jest-Testing-Style-Guide.md#1.4",
+    "testing:Jest-Testing-Style-Guide.md#1.4.1",
+    "testing:Jest-Testing-Style-Guide.md#1.4.2",
+    "testing:Jest-Testing-Style-Guide.md#1.5.1",
+    "testing:Jest-Testing-Style-Guide.md#1.5.2"
+  ],
+  "consistency requirements": [
+    "coding:Coding-Standards.md#1.1.1",
+    "documenting:API-Documentation-Style-Guide.md#1.9"
+  ],
+  "collaboration guidelines": [
+    "coding:Coding-Standards.md#1.1.2"
+  ],
+  "formatting standards": [
+    "coding:Coding-Standards.md#1.2",
+    "coding:Coding-Standards.md#1.2.1",
+    "coding:Coding-Standards.md#1.2.2",
+    "coding:Coding-Standards.md#1.2.3",
+    "coding:Coding-Standards.md#1.2.4",
+    "coding:Coding-Standards.md#1.2.5",
+    "documenting:Documentation-Style-Guide.md#1.3",
+    "documenting:Documentation-Style-Guide.md#1.3.1",
+    "documenting:Documentation-Style-Guide.md#1.3.2"
+  ],
+  "line length": [
+    "coding:Coding-Standards.md#1.2.1"
+  ],
+  "indentation": [
+    "coding:Coding-Standards.md#1.2.2"
+  ],
+  "quotes": [
+    "coding:Coding-Standards.md#1.2.3"
+  ],
+  "semicolons": [
+    "coding:Coding-Standards.md#1.2.4"
+  ],
+  "spaces in data structures": [
+    "coding:Coding-Standards.md#1.2.5"
+  ],
+  "commenting and documentation": [
+    "coding:Coding-Standards.md#1.3",
+    "coding:Coding-Standards.md#1.3.1",
+    "coding:Coding-Standards.md#1.3.2"
+  ],
+  "jsdoc comments": [
+    "coding:Coding-Standards.md#1.3.1"
+  ],
+  "inline comments": [
+    "coding:Coding-Standards.md#1.3.2"
+  ],
+  "naming conventions": [
+    "coding:Coding-Standards.md#1.4",
+    "coding:Coding-Standards.md#1.4.1",
+    "coding:Coding-Standards.md#1.4.2",
+    "coding:Coding-Standards.md#1.4.3",
+    "coding:Coding-Standards.md#1.4.4"
+  ],
+  "variable naming": [
+    "coding:Coding-Standards.md#1.4.1"
+  ],
+  "function naming": [
+    "coding:Coding-Standards.md#1.4.2"
+  ],
+  "class and component naming": [
+    "coding:Coding-Standards.md#1.4.3"
+  ],
+  "file and folder naming": [
+    "coding:Coding-Standards.md#1.4.4"
+  ],
+  "project management practices": [
+    "coding:Coding-Standards.md#1.5",
+    "coding:Coding-Standards.md#1.5.1",
+    "coding:Coding-Standards.md#1.5.2",
+    "coding:Coding-Standards.md#1.5.3"
+  ],
+  "git commits": [
+    "coding:Coding-Standards.md#1.5.1"
+  ],
+  "dependencies": [
+    "coding:Coding-Standards.md#1.5.2"
+  ],
+  "environment variables": [
+    "coding:Coding-Standards.md#1.5.3"
+  ],
+  "reactjs style guide": [
+    "coding:ReactJS-Style-Guide.md#1",
+    "coding:ReactJS-Style-Guide.md#1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.2",
+    "coding:ReactJS-Style-Guide.md#1.2",
+    "coding:ReactJS-Style-Guide.md#1.2.1",
+    "coding:ReactJS-Style-Guide.md#1.3",
+    "coding:ReactJS-Style-Guide.md#1.3.1",
+    "coding:ReactJS-Style-Guide.md#1.3.2"
+  ],
+  "component formatting": [
+    "coding:ReactJS-Style-Guide.md#1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.1",
+    "coding:ReactJS-Style-Guide.md#1.1.2"
+  ],
+  "wrapping components": [
+    "coding:ReactJS-Style-Guide.md#1.1.1"
+  ],
+  "prop spacing": [
+    "coding:ReactJS-Style-Guide.md#1.1.2"
+  ],
+  "code organization": [
+    "coding:ReactJS-Style-Guide.md#1.2",
+    "coding:ReactJS-Style-Guide.md#1.2.1"
+  ],
+  "organization outline": [
+    "coding:ReactJS-Style-Guide.md#1.2.1"
+  ],
+  "file structure and hooks": [
+    "coding:ReactJS-Style-Guide.md#1.3",
+    "coding:ReactJS-Style-Guide.md#1.3.1",
+    "coding:ReactJS-Style-Guide.md#1.3.2"
+  ],
+  "aggregate hooks": [
+    "coding:ReactJS-Style-Guide.md#1.3.1"
+  ],
+  "file structure options": [
+    "coding:ReactJS-Style-Guide.md#1.3.2"
+  ],
+  "typescript style guide": [
+    "coding:Typescript-Style-Guide.md#1",
+    "coding:Typescript-Style-Guide.md#1.1",
+    "coding:Typescript-Style-Guide.md#1.1.1",
+    "coding:Typescript-Style-Guide.md#1.1.2",
+    "coding:Typescript-Style-Guide.md#1.1.3",
+    "coding:Typescript-Style-Guide.md#1.1.4",
+    "coding:Typescript-Style-Guide.md#1.2",
+    "coding:Typescript-Style-Guide.md#1.2.1",
+    "coding:Typescript-Style-Guide.md#1.2.2",
+    "coding:Typescript-Style-Guide.md#1.3",
+    "coding:Typescript-Style-Guide.md#1.3.1",
+    "coding:Typescript-Style-Guide.md#1.3.2",
+    "coding:Typescript-Style-Guide.md#1.3.3",
+    "coding:Typescript-Style-Guide.md#1.3.4",
+    "coding:Typescript-Style-Guide.md#1.3.5",
+    "coding:Typescript-Style-Guide.md#1.4",
+    "coding:Typescript-Style-Guide.md#1.4.1",
+    "coding:Typescript-Style-Guide.md#1.4.2",
+    "coding:Typescript-Style-Guide.md#1.4.3",
+    "coding:Typescript-Style-Guide.md#1.5",
+    "coding:Typescript-Style-Guide.md#1.5.1",
+    "coding:Typescript-Style-Guide.md#1.5.2"
+  ],
+  "formatting and syntax standards": [
+    "coding:Typescript-Style-Guide.md#1.1",
+    "coding:Typescript-Style-Guide.md#1.1.1",
+    "coding:Typescript-Style-Guide.md#1.1.2",
+    "coding:Typescript-Style-Guide.md#1.1.3",
+    "coding:Typescript-Style-Guide.md#1.1.4"
+  ],
+  "indentation and spacing": [
+    "coding:Typescript-Style-Guide.md#1.1.1"
+  ],
+  "semicolons and quotes": [
+    "coding:Typescript-Style-Guide.md#1.1.2"
+  ],
+  "braces and blank lines": [
+    "coding:Typescript-Style-Guide.md#1.1.3"
+  ],
+  "trailing commas and lists": [
+    "coding:Typescript-Style-Guide.md#1.1.4"
+  ],
+  "import and export rules": [
+    "coding:Typescript-Style-Guide.md#1.2",
+    "coding:Typescript-Style-Guide.md#1.2.1",
+    "coding:Typescript-Style-Guide.md#1.2.2"
+  ],
+  "import organization": [
+    "coding:Typescript-Style-Guide.md#1.2.1"
+  ],
+  "export formatting": [
+    "coding:Typescript-Style-Guide.md#1.2.2"
+  ],
+  "type and class definitions": [
+    "coding:Typescript-Style-Guide.md#1.3",
+    "coding:Typescript-Style-Guide.md#1.3.1",
+    "coding:Typescript-Style-Guide.md#1.3.2",
+    "coding:Typescript-Style-Guide.md#1.3.3",
+    "coding:Typescript-Style-Guide.md#1.3.4",
+    "coding:Typescript-Style-Guide.md#1.3.5"
+  ],
+  "object types": [
+    "coding:Typescript-Style-Guide.md#1.3.1"
+  ],
+  "interfaces vs types": [
+    "coding:Typescript-Style-Guide.md#1.3.2"
+  ],
+  "generics and annotations": [
+    "coding:Typescript-Style-Guide.md#1.3.3"
+  ],
+  "built in types usage": [
+    "coding:Typescript-Style-Guide.md#1.3.4"
+  ],
+  "function and method typing": [
+    "coding:Typescript-Style-Guide.md#1.3.5"
+  ],
+  "control flow and naming conventions": [
+    "coding:Typescript-Style-Guide.md#1.4",
+    "coding:Typescript-Style-Guide.md#1.4.1",
+    "coding:Typescript-Style-Guide.md#1.4.2",
+    "coding:Typescript-Style-Guide.md#1.4.3"
+  ],
+  "delegation": [
+    "coding:Typescript-Style-Guide.md#1.4.1"
+  ],
+  "naming standards": [
+    "coding:Typescript-Style-Guide.md#1.4.2"
+  ],
+  "documentation": [
+    "coding:Typescript-Style-Guide.md#1.4.3"
+  ],
+  "error handling and runtime practices": [
+    "coding:Typescript-Style-Guide.md#1.5",
+    "coding:Typescript-Style-Guide.md#1.5.1",
+    "coding:Typescript-Style-Guide.md#1.5.2"
+  ],
+  "error throwing": [
+    "coding:Typescript-Style-Guide.md#1.5.1"
+  ],
+  "runtime and testing": [
+    "coding:Typescript-Style-Guide.md#1.5.2"
+  ],
+  "documenting": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#2",
+    "documenting:AI-Documentation-Conversion-Guide.md#3",
+    "documenting:AI-Documentation-Conversion-Guide.md#4",
+    "documenting:AI-Documentation-Conversion-Guide.md#5",
+    "documenting:AI-Documentation-Conversion-Guide.md#6",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#7",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.3",
+    "documenting:API-Documentation-Style-Guide.md#1",
+    "documenting:API-Documentation-Style-Guide.md#1.1",
+    "documenting:API-Documentation-Style-Guide.md#1.2",
+    "documenting:API-Documentation-Style-Guide.md#1.3",
+    "documenting:API-Documentation-Style-Guide.md#1.4",
+    "documenting:API-Documentation-Style-Guide.md#1.5",
+    "documenting:API-Documentation-Style-Guide.md#1.6",
+    "documenting:API-Documentation-Style-Guide.md#1.7",
+    "documenting:API-Documentation-Style-Guide.md#1.8",
+    "documenting:API-Documentation-Style-Guide.md#1.9",
+    "documenting:API-Documentation-Style-Guide.md#1.10",
+    "documenting:API-Documentation-Style-Guide.md#1.11",
+    "documenting:API-Documentation-Style-Guide.md#1.12",
+    "documenting:Documentation-Style-Guide.md#1",
+    "documenting:Documentation-Style-Guide.md#1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.2",
+    "documenting:Documentation-Style-Guide.md#1.1.3",
+    "documenting:Documentation-Style-Guide.md#1.1.4",
+    "documenting:Documentation-Style-Guide.md#1.2",
+    "documenting:Documentation-Style-Guide.md#1.2.1",
+    "documenting:Documentation-Style-Guide.md#1.2.2",
+    "documenting:Documentation-Style-Guide.md#1.2.3",
+    "documenting:Documentation-Style-Guide.md#1.3",
+    "documenting:Documentation-Style-Guide.md#1.3.1",
+    "documenting:Documentation-Style-Guide.md#1.3.2",
+    "documenting:Documentation-Style-Guide.md#2"
+  ],
+  "ai documentation conversion guide": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#2",
+    "documenting:AI-Documentation-Conversion-Guide.md#3",
+    "documenting:AI-Documentation-Conversion-Guide.md#4",
+    "documenting:AI-Documentation-Conversion-Guide.md#5",
+    "documenting:AI-Documentation-Conversion-Guide.md#6",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#7",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.3"
+  ],
+  "conversion overview": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.2"
+  ],
+  "conversion goals": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.1"
+  ],
+  "input analysis": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.1.2"
+  ],
+  "pre conversion analysis": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.3"
+  ],
+  "document type classification": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.1"
+  ],
+  "content inventory": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.2"
+  ],
+  "gap analysis": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.2.3"
+  ],
+  "structure transformation": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.3"
+  ],
+  "title and description conversion": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.1"
+  ],
+  "outline numbering implementation": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.2"
+  ],
+  "table of contents generation": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.3.3"
+  ],
+  "content reorganization": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.3"
+  ],
+  "section description addition": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.1"
+  ],
+  "content consolidation": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.2"
+  ],
+  "document block separation": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.4.3"
+  ],
+  "api documentation conversion": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.3"
+  ],
+  "class documentation structure": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.1",
+    "documenting:API-Documentation-Style-Guide.md#1.2"
+  ],
+  "method documentation conversion": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.2"
+  ],
+  "property documentation conversion": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.5.3"
+  ],
+  "formatting standardization": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6",
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6.1"
+  ],
+  "code block conversion": [
+    "documenting:AI-Documentation-Conversion-Guide.md#1.6.1"
+  ],
+  "original": [
+    "documenting:AI-Documentation-Conversion-Guide.md#2",
+    "documenting:AI-Documentation-Conversion-Guide.md#4"
+  ],
+  "converted": [
+    "documenting:AI-Documentation-Conversion-Guide.md#3",
+    "documenting:AI-Documentation-Conversion-Guide.md#5"
+  ],
+  "user management": [
+    "documenting:AI-Documentation-Conversion-Guide.md#6",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#6.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#7",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.3"
+  ],
+  "creating users": [
+    "documenting:AI-Documentation-Conversion-Guide.md#6.1",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.1"
+  ],
+  "user properties": [
+    "documenting:AI-Documentation-Conversion-Guide.md#6.2",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.2"
+  ],
+  "deleting users": [
+    "documenting:AI-Documentation-Conversion-Guide.md#6.3",
+    "documenting:AI-Documentation-Conversion-Guide.md#7.3"
+  ],
+  "api documentation style guide": [
+    "documenting:API-Documentation-Style-Guide.md#1",
+    "documenting:API-Documentation-Style-Guide.md#1.1",
+    "documenting:API-Documentation-Style-Guide.md#1.2",
+    "documenting:API-Documentation-Style-Guide.md#1.3",
+    "documenting:API-Documentation-Style-Guide.md#1.4",
+    "documenting:API-Documentation-Style-Guide.md#1.5",
+    "documenting:API-Documentation-Style-Guide.md#1.6",
+    "documenting:API-Documentation-Style-Guide.md#1.7",
+    "documenting:API-Documentation-Style-Guide.md#1.8",
+    "documenting:API-Documentation-Style-Guide.md#1.9",
+    "documenting:API-Documentation-Style-Guide.md#1.10",
+    "documenting:API-Documentation-Style-Guide.md#1.11",
+    "documenting:API-Documentation-Style-Guide.md#1.12"
+  ],
+  "file organization": [
+    "documenting:API-Documentation-Style-Guide.md#1.1"
+  ],
+  "method documentation standards": [
+    "documenting:API-Documentation-Style-Guide.md#1.3"
+  ],
+  "parameter tables": [
+    "documenting:API-Documentation-Style-Guide.md#1.4"
+  ],
+  "return value documentation": [
+    "documenting:API-Documentation-Style-Guide.md#1.5"
+  ],
+  "code examples": [
+    "documenting:API-Documentation-Style-Guide.md#1.6"
+  ],
+  "type safety documentation": [
+    "documenting:API-Documentation-Style-Guide.md#1.7"
+  ],
+  "cross references and integration": [
+    "documenting:API-Documentation-Style-Guide.md#1.8"
+  ],
+  "accessibility and usability": [
+    "documenting:API-Documentation-Style-Guide.md#1.10"
+  ],
+  "maintenance and updates": [
+    "documenting:API-Documentation-Style-Guide.md#1.11"
+  ],
+  "quality validation": [
+    "documenting:API-Documentation-Style-Guide.md#1.12"
+  ],
+  "documentation style guide": [
+    "documenting:Documentation-Style-Guide.md#1",
+    "documenting:Documentation-Style-Guide.md#1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.2",
+    "documenting:Documentation-Style-Guide.md#1.1.3",
+    "documenting:Documentation-Style-Guide.md#1.1.4",
+    "documenting:Documentation-Style-Guide.md#1.2",
+    "documenting:Documentation-Style-Guide.md#1.2.1",
+    "documenting:Documentation-Style-Guide.md#1.2.2",
+    "documenting:Documentation-Style-Guide.md#1.2.3",
+    "documenting:Documentation-Style-Guide.md#1.3",
+    "documenting:Documentation-Style-Guide.md#1.3.1",
+    "documenting:Documentation-Style-Guide.md#1.3.2",
+    "documenting:Documentation-Style-Guide.md#2"
+  ],
+  "markdown documentation guidelines": [
+    "documenting:Documentation-Style-Guide.md#1",
+    "documenting:Documentation-Style-Guide.md#1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.2",
+    "documenting:Documentation-Style-Guide.md#1.1.3",
+    "documenting:Documentation-Style-Guide.md#1.1.4",
+    "documenting:Documentation-Style-Guide.md#1.2",
+    "documenting:Documentation-Style-Guide.md#1.2.1",
+    "documenting:Documentation-Style-Guide.md#1.2.2",
+    "documenting:Documentation-Style-Guide.md#1.2.3",
+    "documenting:Documentation-Style-Guide.md#1.3",
+    "documenting:Documentation-Style-Guide.md#1.3.1",
+    "documenting:Documentation-Style-Guide.md#1.3.2"
+  ],
+  "document structure requirements": [
+    "documenting:Documentation-Style-Guide.md#1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.1",
+    "documenting:Documentation-Style-Guide.md#1.1.2",
+    "documenting:Documentation-Style-Guide.md#1.1.3",
+    "documenting:Documentation-Style-Guide.md#1.1.4"
+  ],
+  "title and description": [
+    "documenting:Documentation-Style-Guide.md#1.1.1"
+  ],
+  "table of contents": [
+    "documenting:Documentation-Style-Guide.md#1.1.2"
+  ],
+  "main subjects": [
+    "documenting:Documentation-Style-Guide.md#1.1.3"
+  ],
+  "outline numbering system": [
+    "documenting:Documentation-Style-Guide.md#1.1.4"
+  ],
+  "content organization": [
+    "documenting:Documentation-Style-Guide.md#1.2",
+    "documenting:Documentation-Style-Guide.md#1.2.1",
+    "documenting:Documentation-Style-Guide.md#1.2.2",
+    "documenting:Documentation-Style-Guide.md#1.2.3"
+  ],
+  "section descriptions": [
+    "documenting:Documentation-Style-Guide.md#1.2.1"
+  ],
+  "the at least two rule": [
+    "documenting:Documentation-Style-Guide.md#1.2.2"
+  ],
+  "document blocks": [
+    "documenting:Documentation-Style-Guide.md#1.2.3"
+  ],
+  "lists": [
+    "documenting:Documentation-Style-Guide.md#1.3.1"
+  ],
+  "code blocks": [
+    "documenting:Documentation-Style-Guide.md#1.3.2"
+  ],
+  "bash example": [
+    "documenting:Documentation-Style-Guide.md#2"
+  ],
+  "testing": [
+    "testing:Chai-Testing-Style-Guide.md#1",
+    "testing:Chai-Testing-Style-Guide.md#1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2.1",
+    "testing:Chai-Testing-Style-Guide.md#1.2.2",
+    "testing:Chai-Testing-Style-Guide.md#1.3",
+    "testing:Chai-Testing-Style-Guide.md#1.3.1",
+    "testing:Chai-Testing-Style-Guide.md#1.3.2",
+    "testing:Chai-Testing-Style-Guide.md#1.4",
+    "testing:Chai-Testing-Style-Guide.md#1.4.1",
+    "testing:Chai-Testing-Style-Guide.md#1.4.2",
+    "testing:Chai-Testing-Style-Guide.md#1.5",
+    "testing:Chai-Testing-Style-Guide.md#1.5.1",
+    "testing:Chai-Testing-Style-Guide.md#1.5.2",
+    "testing:Jest-Testing-Style-Guide.md#1",
+    "testing:Jest-Testing-Style-Guide.md#1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.1",
+    "testing:Jest-Testing-Style-Guide.md#1.2.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3.1",
+    "testing:Jest-Testing-Style-Guide.md#1.3.2",
+    "testing:Jest-Testing-Style-Guide.md#1.4",
+    "testing:Jest-Testing-Style-Guide.md#1.4.1",
+    "testing:Jest-Testing-Style-Guide.md#1.4.2",
+    "testing:Jest-Testing-Style-Guide.md#1.5",
+    "testing:Jest-Testing-Style-Guide.md#1.5.1",
+    "testing:Jest-Testing-Style-Guide.md#1.5.2"
+  ],
+  "chai testing style guide": [
+    "testing:Chai-Testing-Style-Guide.md#1",
+    "testing:Chai-Testing-Style-Guide.md#1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2.1",
+    "testing:Chai-Testing-Style-Guide.md#1.2.2",
+    "testing:Chai-Testing-Style-Guide.md#1.3",
+    "testing:Chai-Testing-Style-Guide.md#1.3.1",
+    "testing:Chai-Testing-Style-Guide.md#1.3.2",
+    "testing:Chai-Testing-Style-Guide.md#1.4",
+    "testing:Chai-Testing-Style-Guide.md#1.4.1",
+    "testing:Chai-Testing-Style-Guide.md#1.4.2",
+    "testing:Chai-Testing-Style-Guide.md#1.5",
+    "testing:Chai-Testing-Style-Guide.md#1.5.1",
+    "testing:Chai-Testing-Style-Guide.md#1.5.2"
+  ],
+  "mocha chai testing style guide": [
+    "testing:Chai-Testing-Style-Guide.md#1",
+    "testing:Chai-Testing-Style-Guide.md#1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2.1",
+    "testing:Chai-Testing-Style-Guide.md#1.2.2",
+    "testing:Chai-Testing-Style-Guide.md#1.3",
+    "testing:Chai-Testing-Style-Guide.md#1.3.1",
+    "testing:Chai-Testing-Style-Guide.md#1.3.2",
+    "testing:Chai-Testing-Style-Guide.md#1.4",
+    "testing:Chai-Testing-Style-Guide.md#1.4.1",
+    "testing:Chai-Testing-Style-Guide.md#1.4.2",
+    "testing:Chai-Testing-Style-Guide.md#1.5",
+    "testing:Chai-Testing-Style-Guide.md#1.5.1",
+    "testing:Chai-Testing-Style-Guide.md#1.5.2"
+  ],
+  "general testing principles": [
+    "testing:Chai-Testing-Style-Guide.md#1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.1",
+    "testing:Chai-Testing-Style-Guide.md#1.1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.2"
+  ],
+  "behavior focus": [
+    "testing:Chai-Testing-Style-Guide.md#1.1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.1"
+  ],
+  "test characteristics": [
+    "testing:Chai-Testing-Style-Guide.md#1.1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.1.2"
+  ],
+  "test structure and execution": [
+    "testing:Chai-Testing-Style-Guide.md#1.2",
+    "testing:Chai-Testing-Style-Guide.md#1.2.1",
+    "testing:Chai-Testing-Style-Guide.md#1.2.2"
+  ],
+  "async handling": [
+    "testing:Chai-Testing-Style-Guide.md#1.2.1"
+  ],
+  "suite organization": [
+    "testing:Chai-Testing-Style-Guide.md#1.2.2"
+  ],
+  "isolation and determinism": [
+    "testing:Chai-Testing-Style-Guide.md#1.3",
+    "testing:Chai-Testing-Style-Guide.md#1.3.1",
+    "testing:Chai-Testing-Style-Guide.md#1.3.2"
+  ],
+  "sandbox management": [
+    "testing:Chai-Testing-Style-Guide.md#1.3.1"
+  ],
+  "time and randomness control": [
+    "testing:Chai-Testing-Style-Guide.md#1.3.2"
+  ],
+  "type safety and fixtures": [
+    "testing:Chai-Testing-Style-Guide.md#1.4",
+    "testing:Chai-Testing-Style-Guide.md#1.4.1",
+    "testing:Chai-Testing-Style-Guide.md#1.4.2",
+    "testing:Jest-Testing-Style-Guide.md#1.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3.1",
+    "testing:Jest-Testing-Style-Guide.md#1.3.2"
+  ],
+  "type handling": [
+    "testing:Chai-Testing-Style-Guide.md#1.4.1"
+  ],
+  "fixtures": [
+    "testing:Chai-Testing-Style-Guide.md#1.4.2",
+    "fixtures:Sample-Document-1.md#1",
+    "fixtures:Sample-Document-1.md#1.1",
+    "fixtures:Sample-Document-1.md#1.2",
+    "fixtures:Sample-Document-1.md#1.3"
+  ],
+  "common pitfalls and solutions": [
+    "testing:Chai-Testing-Style-Guide.md#1.5",
+    "testing:Chai-Testing-Style-Guide.md#1.5.1",
+    "testing:Chai-Testing-Style-Guide.md#1.5.2"
+  ],
+  "bad practices avoidance": [
+    "testing:Chai-Testing-Style-Guide.md#1.5.1",
+    "testing:Jest-Testing-Style-Guide.md#1.5.1"
+  ],
+  "configuration and setup": [
+    "testing:Chai-Testing-Style-Guide.md#1.5.2"
+  ],
+  "jest testing style guide": [
+    "testing:Jest-Testing-Style-Guide.md#1",
+    "testing:Jest-Testing-Style-Guide.md#1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.1",
+    "testing:Jest-Testing-Style-Guide.md#1.1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.1",
+    "testing:Jest-Testing-Style-Guide.md#1.2.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3",
+    "testing:Jest-Testing-Style-Guide.md#1.3.1",
+    "testing:Jest-Testing-Style-Guide.md#1.3.2",
+    "testing:Jest-Testing-Style-Guide.md#1.4",
+    "testing:Jest-Testing-Style-Guide.md#1.4.1",
+    "testing:Jest-Testing-Style-Guide.md#1.4.2",
+    "testing:Jest-Testing-Style-Guide.md#1.5",
+    "testing:Jest-Testing-Style-Guide.md#1.5.1",
+    "testing:Jest-Testing-Style-Guide.md#1.5.2"
+  ],
+  "test organization and execution": [
+    "testing:Jest-Testing-Style-Guide.md#1.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.1",
+    "testing:Jest-Testing-Style-Guide.md#1.2.2",
+    "testing:Jest-Testing-Style-Guide.md#1.2.3"
+  ],
+  "naming and descriptions": [
+    "testing:Jest-Testing-Style-Guide.md#1.2.1"
+  ],
+  "isolation and cleanup": [
+    "testing:Jest-Testing-Style-Guide.md#1.2.2"
+  ],
+  "asynchrony handling": [
+    "testing:Jest-Testing-Style-Guide.md#1.2.3"
+  ],
+  "type usage": [
+    "testing:Jest-Testing-Style-Guide.md#1.3.1"
+  ],
+  "fixtures and data": [
+    "testing:Jest-Testing-Style-Guide.md#1.3.2"
+  ],
+  "react specific guidelines": [
+    "testing:Jest-Testing-Style-Guide.md#1.4",
+    "testing:Jest-Testing-Style-Guide.md#1.4.1",
+    "testing:Jest-Testing-Style-Guide.md#1.4.2"
+  ],
+  "testing approach": [
+    "testing:Jest-Testing-Style-Guide.md#1.4.1"
+  ],
+  "interactions and effects": [
+    "testing:Jest-Testing-Style-Guide.md#1.4.2"
+  ],
+  "common issues and solutions": [
+    "testing:Jest-Testing-Style-Guide.md#1.5",
+    "testing:Jest-Testing-Style-Guide.md#1.5.1",
+    "testing:Jest-Testing-Style-Guide.md#1.5.2"
+  ],
+  "configuration and ci": [
+    "testing:Jest-Testing-Style-Guide.md#1.5.2"
+  ],
+  "sample document 1": [
+    "fixtures:Sample-Document-1.md#1",
+    "fixtures:Sample-Document-1.md#1.1",
+    "fixtures:Sample-Document-1.md#1.2",
+    "fixtures:Sample-Document-1.md#1.3"
+  ],
+  "getting information": [
+    "fixtures:Sample-Document-1.md#1.1",
+    "fixtures:Sample-Document-1.md#1.3"
+  ],
+  "fetching information": [
+    "fixtures:Sample-Document-1.md#1.2"
+  ]
+}
