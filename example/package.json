@@ -7,6 +7,6 @@
     "test": "node ./test.js"
   },
   "dependencies": {
-    "mcp.md": "0.0.14"
+    "mcp.md": "0.0.15"
   }
 }
